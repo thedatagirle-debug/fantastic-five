@@ -130,6 +130,34 @@ with tabs[0]:
     fig.update_layout(height=460, xaxis=dict(dtick=1))
     st.plotly_chart(fig, use_container_width=True)
 
+    # ---- competition-wide recurring issues (from LLM-decoded feedback)
+    st.markdown("#### 🔁 What the whole competition struggles with")
+    st.caption("Recurring issues = a singer was flagged for it in 2+ rounds. Counts how many such "
+               "singers across all 21 teams share each issue — the field's collective weak spots.")
+    crdf, elig = M.competition_recurring(INSIGHTS, members)
+    if not crdf.empty:
+        cL, cR = st.columns([3, 2])
+        with cL:
+            figc = px.bar(crdf.head(12).sort_values("singers"), x="singers", y="theme",
+                          orientation="h", text="singers",
+                          title=f"Recurring issues across {elig} multi-round singers")
+            figc.update_layout(height=420, yaxis_title="", xaxis_title="singers affected",
+                               margin=dict(l=10, t=40))
+            st.plotly_chart(figc, use_container_width=True)
+        with cR:
+            # which of these Golden RRR singers repeatedly share
+            gsing = members[members["team"] == M.MY_TEAM]["member"].unique()
+            mine_themes = {}
+            for s in gsing:
+                for t, v in M.recurring(INSIGHTS, M.MY_TEAM, s)["issue_themes"]:
+                    mine_themes.setdefault(t, []).append(s)
+            st.markdown("**Golden RRR's exposure to the field's top issues:**")
+            for _, r in crdf.head(6).iterrows():
+                who = mine_themes.get(r["theme"], [])
+                tag = f"⚠️ {', '.join(who)}" if who else "✅ not a Golden RRR pattern"
+                st.markdown(f"- **{r['theme']}** ({int(r['singers'])} singers) — {tag}")
+            st.caption("Fixing an issue most rivals also have = points where you can separate from the pack.")
+
 # ============================================================================= TEAMS
 with tabs[1]:
     team = st.selectbox("Select team", sorted(teams["team"].unique()),

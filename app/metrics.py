@@ -344,6 +344,25 @@ def recurring(insights, team, member):
             "issue_criteria": rec(issue_c), "issue_themes": rec(theme_c)}
 
 
+def competition_recurring(insights, members):
+    """Across all singers (with >=2 rounds), how many have each recurring issue THEME.
+    Returns a DataFrame: theme, singers (count), and the share of multi-round singers."""
+    from collections import Counter
+    singers = members[["team", "member"]].drop_duplicates()
+    theme_c = Counter()
+    eligible = 0
+    for _, row in singers.iterrows():
+        r = recurring(insights, row["team"], row["member"])
+        if r["rounds"] < 2:
+            continue
+        eligible += 1
+        for t, _ in r["issue_themes"]:
+            theme_c[t] += 1
+    df = pd.DataFrame(theme_c.most_common(), columns=["theme", "singers"])
+    df["share_%"] = (df["singers"] / eligible * 100).round(0) if eligible else 0
+    return df, eligible
+
+
 def potential_table(teams, members):
     """Potential = where a team is trending + how high its ceiling is + member depth.
     Blends current average, upward trajectory, best-round ceiling and roster balance."""
