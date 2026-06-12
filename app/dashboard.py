@@ -165,8 +165,10 @@ with tabs[2]:
     top = M.top_per_team(members)[["team", "member", "avg_grand", "best_grand", "trend"]]
     st.dataframe(top.rename(columns={"avg_grand": "avg", "best_grand": "best", "trend": "trend/round"})
                  .style.format({"avg": "{:.1f}", "best": "{:.1f}", "trend/round": "{:+.2f}"})
-                 .background_gradient(cmap="Blues", subset=["avg"]),
+                 .background_gradient(cmap="Blues", subset=["avg"])
+                 .background_gradient(cmap="Greens", subset=["best"]),
                  use_container_width=True, height=420, hide_index=True)
+    st.caption("avg (blue) = consistency · best (green) = ceiling / potential.")
 
     st.markdown("#### All performers ranked")
     q = st.text_input("Search performer / team")
@@ -178,7 +180,9 @@ with tabs[2]:
     view.insert(0, "rank", range(1, len(view) + 1))
     st.dataframe(view.rename(columns={"avg_grand": "avg", "total_grand": "total", "best_grand": "best",
                                       "trend": "trend/round"})
-                 .style.format({"avg": "{:.1f}", "total": "{:.1f}", "best": "{:.1f}", "trend/round": "{:+.2f}"}),
+                 .style.format({"avg": "{:.1f}", "total": "{:.1f}", "best": "{:.1f}", "trend/round": "{:+.2f}"})
+                 .background_gradient(cmap="Blues", subset=["avg"])
+                 .background_gradient(cmap="Greens", subset=["best"]),
                  use_container_width=True, height=420, hide_index=True)
 
 # ============================================================================= GOLDEN RRR WAR ROOM
@@ -253,7 +257,8 @@ with tabs[3]:
         gm = gm.sort_values("avg_grand")
         st.dataframe(gm.rename(columns={"avg_grand": "avg", "best_grand": "best", "trend": "trend/round"})
                      .style.format({"avg": "{:.1f}", "best": "{:.1f}", "trend/round": "{:+.2f}"})
-                     .background_gradient(cmap="RdYlGn", subset=["avg"]),
+                     .background_gradient(cmap="RdYlGn", subset=["avg"])
+                     .background_gradient(cmap="RdYlGn", subset=["best"]),
                      use_container_width=True, hide_index=True)
 
         # ---- per-singer: which criterion to improve + decoded judge suggestion
@@ -283,17 +288,8 @@ with tabs[3]:
                 if not focus and not ins["suggestion"]:
                     st.markdown("No explicit suggestion in the latest feedback — work the weakest criterion above.")
 
-        # ---- judge suggestions mined from feedback
-        st.markdown("### What the judges told Golden RRR (all suggestions extracted)")
-        gfb = members[members["team"] == M.MY_TEAM]
-        for _, r in gfb.iterrows():
-            fb = str(r["feedback"] or "")
-            sug = ""
-            low = fb.lower()
-            if "suggestion" in low:
-                sug = fb[low.index("suggestion"):]
-            if sug:
-                st.markdown(f"- **{r['member']} (R{int(r['round'])})** — {sug.strip()}")
+        st.caption("💬 For full per-round judge feedback on each Golden RRR singer, see the "
+                   "**🎤 Teams** tab → select Golden RRR → Judge feedback.")
 
 # ============================================================================= BEAT A TEAM
 with tabs[4]:
@@ -364,11 +360,20 @@ with tabs[4]:
     rm = M.member_standings(members)
     rstars = rm[rm["team"] == rival].sort_values("avg_grand", ascending=False).head(3)
     rmem = members[members["team"] == rival]
+    # Golden RRR's ceiling — the best single score any of our singers has hit
+    g_best = float(rm[rm["team"] == M.MY_TEAM]["best_grand"].max())
+    g_best_who = rm[rm["team"] == M.MY_TEAM].sort_values("best_grand", ascending=False)["member"].iloc[0]
+    st.caption(f"Your ceiling to beat: **{g_best_who} {g_best:.1f}** (Golden RRR's highest single score). "
+               f"🔥 = their *best* score tops yours — high potential even if their average looks lower.")
     for _, r0 in rstars.iterrows():
         rounds_played = sorted(int(x) for x in rmem[rmem["member"] == r0["member"]]["round"].dropna().unique())
         sub_tag = "" if len(rounds_played) >= len(all_rounds) else f" · plays R{rounds_played} (sub/partial)"
-        with st.expander(f"🎤 {r0['member']} — avg {r0['avg_grand']:.1f}, best {r0['best_grand']:.1f}, "
-                         f"trend {r0['trend']:+.2f}{sub_tag}", expanded=False):
+        ceiling_flag = " 🔥 best beats your ceiling" if r0["best_grand"] > g_best else ""
+        with st.expander(f"🎤 {r0['member']} — avg {r0['avg_grand']:.1f}, **best {r0['best_grand']:.1f}**, "
+                         f"trend {r0['trend']:+.2f}{ceiling_flag}{sub_tag}", expanded=False):
+            if r0["best_grand"] > g_best:
+                st.markdown(f"🔥 **Top-potential threat:** their best ({r0['best_grand']:.1f}) is higher than "
+                            f"Golden RRR's best ({g_best:.1f}). On their day they out-sing your strongest.")
             # latest-round feedback, decoded
             fbrows = rmem[rmem["member"] == r0["member"]].sort_values("round")
             last = fbrows.iloc[-1]
