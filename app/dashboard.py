@@ -53,12 +53,13 @@ def show_recurring(team, member, kind="both"):
         items = ", ".join(f"{c} ({v}/{n} rounds)" for c, v in rec["praise_criteria"])
         st.markdown(f"🔁 **Consistently praised for:** {items}")
     if kind in ("both", "issue"):
-        if rec["issue_criteria"]:
-            items = ", ".join(f"{c} ({v}/{n} rounds)" for c, v in rec["issue_criteria"])
-            st.markdown(f"🔁 **Recurring issue:** {items} — a pattern, not a one-off.")
+        # specific repeated points first (most distinctive), then the broad criteria
         if rec["issue_themes"]:
-            items = ", ".join(f"{t} ({v}×)" for t, v in rec["issue_themes"])
-            st.markdown(f"🔁 **Repeatedly flagged:** {items}")
+            items = ", ".join(f"{t} ({v}×)" for t, v in rec["issue_themes"][:4])
+            st.markdown(f"🔁 **Repeatedly flagged:** {items} — a pattern, not a one-off.")
+        if rec["issue_criteria"]:
+            items = ", ".join(f"{c} ({v}/{n})" for c, v in rec["issue_criteria"][:4])
+            st.caption(f"By criterion: {items}")
 round_cols = [c for c in standings.columns if c.startswith("R") and c[1:].isdigit()]
 all_rounds = sorted(int(c[1:]) for c in round_cols)
 

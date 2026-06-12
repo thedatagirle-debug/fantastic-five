@@ -282,14 +282,42 @@ def _phrase_to_criterion(phrase):
     return None
 
 
-# specific recurring issue themes (beyond the 5 criteria) to track across rounds
+# specific recurring issue themes (beyond the 5 criteria) to track across rounds.
+# Keywords are matched against the decoded negatives — keep them broad enough to
+# catch phrasing variants (e.g. "2nd join", "self-join", "utilize options" all = join/duet).
+# Each theme is a human reasoning label -> a list of REASONING PHRASES (concept fragments)
+# that mean the same thing. A round's feedback matches the theme if any phrase appears in it.
+# Phrases (not bare words) keep matching precise and the output reads like an insight.
 _THEMES = {
-    "sing in duet/join": ["duet", "single join", "double join", "split lyrics"],
-    "landings cut short": ["landing"],
-    "high notes": ["high note", "high notes"],
-    "voice strain/compression": ["strain", "compress", "crack"],
-    "humming/breath": ["humming", "breath"],
-    "fillers/sangathi": ["filler", "sangathi"],
+    "should use the 2nd join (duet) option": [
+        "2nd join", "second join", "self join", "self-join", "single join", "double join",
+        "duet", "split the lyric", "shrink the song", "use the option", "utilize the option",
+        "didn't use 2nd join", "did not use 2nd join", "join option"],
+    "pitch goes flat / off sruthi": [
+        "pitch flat", "goes flat", "flat in", "slightly flat", "off pitch", "off-key",
+        "sruthi", "apaswaram", "pitch differ", "scale differ", "pitch issue", "pitch waver",
+        "pitch slip", "pitch problem"],
+    "feel / attitude / dynamics lacking": [
+        "more feel", "feel missing", "add feel", "lacks feel", "attitude", "more dynamics",
+        "add dynamics", "dynamics missing", "more energy", "expression", "emotion"],
+    "landings cut short / not sustained": ["landing"],
+    "should sustain notes longer": ["sustain"],
+    "strain on high notes": ["high note"],
+    "voice strain / crack": ["voice strain", "strained", "voice crack", "compress"],
+    "breath control on long lines": ["breath"],
+    "humming needs work": ["humming"],
+    "fillers / sangathi to add or clean": ["filler", "sangathi"],
+    "diction / pronunciation / word clarity": [
+        "diction", "pronunc", "word clarity", "clarity of words", "words not clear",
+        "unclear words", "lyric clarity"],
+    "timing / rhythm lag": ["timing", "tempo", "rushed", "off beat", "rhythm lag", "behind beat"],
+    "voice modulation": ["modulation"],
+    "voice / song settings need fixing": ["voice setting", "song setting", "settings", "mic setting"],
+    "missing / uncovered portions of the song": [
+        "missing", "missed portion", "not covered", "skipped", "left out"],
+    "weak in a specific section (pallavi/charanam)": ["pallavi", "charanam", "anupallavi"],
+    "syncing with the backing track": ["with the track", "track la", "backing track",
+                                       "track sync", "along the track"],
 }
 
 
