@@ -9,7 +9,9 @@ import numpy as np
 import plotly.graph_objects as go
 import plotly.express as px
 
+import importlib
 import metrics as M
+importlib.reload(M)   # defeat Streamlit Cloud's warm-process module caching (picks up latest metrics.py)
 
 st.set_page_config(page_title="Fantastic Five Dashboard", page_icon="🎤", layout="wide")
 
