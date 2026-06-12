@@ -1,0 +1,1325 @@
+{
+  "records": [
+    {
+      "image": "IMG_3574.png",
+      "team": "INNISAI MAZHAI",
+      "theme": "INNISAI",
+      "round": 2,
+      "year": "1991",
+      "team_total": 464.3,
+      "members": [
+        {
+          "name": "Anbu Star",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 8.5,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.6,
+              "o_performance": 9.5,
+              "total": 45.6
+            },
+            {
+              "judge": "J2",
+              "pitch": 8.8,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 9.0,
+              "o_performance": 8.9,
+              "total": 45.7
+            }
+          ],
+          "grand_total": 91.3,
+          "feedback": "J1: iruku , sila place la landing sariya illa kaadhal aanadhe, kalandhen, then shruthi la konjam concentrate pananum nalla paadite iruka appo sudden flat ah agudhu adu paathukoonga, then after C1 vara humming flah ah paadi irukeenga konjam, next round la idalam konjam note pani concentrate pani pasdunga ATB. J2: Superb Singing. Suggestion: Sila edam doubtful aa paadiurkenga. Charanam 1 pitch differe agudu, adu aprom vara pallavi pitch differ aagudu. Humming doubtful aa paadarenga. Song konjam kuda soft aa paadirukalam. Otherwise beautiful. ATB"
+        },
+        {
+          "name": "Heart Beat",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.1,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 9.1,
+              "o_performance": 9.5,
+              "total": 46.7
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.2,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 9.3,
+              "o_performance": 9.5,
+              "total": 47.0
+            }
+          ],
+          "grand_total": 93.7,
+          "feedback": "J1: Lovely singing. Start humming romba azaga paadi irukeenga but pallavi start panadhu konjam high la poiteenga adu konjam lowstart pani high ie poganum nenga start panadhe high ie poiduchi adanala high la ye maintain paniteenga adha nelivu sulivu konjam missing matha padi song ellam azaga iruku next time idalaam konjam pathukonga ATB. J2: Beautiful Singing. Beautiful output. Suggestion: Original song ie different feel like oru romantic feel, sila edam oru puthir, suspense, sad ellam kalandu irukum andha dynamics neenga differenctiate pannalam. Song start ani Charanam 1 ie pitch sligh ila differ aagudu. Otherwise beautiful. ATB"
+        },
+        {
+          "name": "Sindhu",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.4,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 9.4,
+              "o_performance": 9.5,
+              "total": 47.3
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.3,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 9.2,
+              "o_performance": 9.5,
+              "total": 47.0
+            }
+          ],
+          "grand_total": 94.3,
+          "feedback": "J1: Excelent singing song fulla romba nalla irunduchi keka, 2 place la thaan konjam issue, C1 la koolamo landing konjam different from original kindly listen again, then C2 la porundhamal poguma landing ia vara sangathies konjam kooda perfection vandu irukalam other than that lovely to listern ATB for your next round. J2: Excellent Singing. Ease singing. Suggestion: Onum perusa ille Dynamics konjam kuda try pannalam. Konjam kuda feel add pannalam. ATB"
+        },
+        {
+          "name": "Jai",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.4,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 9.3,
+              "o_performance": 9.5,
+              "total": 47.2
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.2,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.8,
+              "o_performance": 9.5,
+              "total": 46.5
+            }
+          ],
+          "grand_total": 93.7,
+          "feedback": "J1: Super singing, song ie kora solla edum perusa illa but song ia vara anda softness illa Raw ah paadi irukeenga innum konjam kooda softness sutchu nunaten, next time itu paathukonga ATB. J2: Superb Singing. Suggestion: 2nd join song divide pani paadirukenga Good. Song konjam soft aa paadalam, dynamics konjam kuda add pannalam. Otherwise beautiful. ATB"
+        },
+        {
+          "name": "Mano Manu",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.0,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.8,
+              "o_performance": 9.1,
+              "total": 45.9
+            },
+            {
+              "judge": "J2",
+              "pitch": 8.8,
+              "rhythm": 9.5,
+              "diction": 9.3,
+              "feel_attitude": 8.8,
+              "o_performance": 9.0,
+              "total": 45.4
+            }
+          ],
+          "grand_total": 91.3,
+          "feedback": "J1: Nice singing, Ninaivu alagal line la neram landing flat ah paadi irukeenga both pallavi and anu pallavi, C1 venmaiyanadhu line flat ah paadi irukeenga, C1 last la kan vizithen ending sustain flat ah paadi irukeenga, feel konjam kuduthu irukalam, next time idalaam paathukonga ATB. J2: Good Singing. Suggestion: Chorus portions cover pannale, 2nd join la chorus cover panirukalam. Pallavi pitch check panikonga. Song la konjam dynamcis feel aad pannalam. Neraya edam plain aa paadarenga. Otherwise beautiful. ATB"
+        }
+      ]
+    },
+    {
+      "image": "IMG_3575.png",
+      "team": "MU6 BANG",
+      "theme": "JANANI",
+      "round": 2,
+      "year": "1992",
+      "team_total": 460.1,
+      "members": [
+        {
+          "name": "ILAKKIYA",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.3,
+              "rhythm": 9.5,
+              "diction": 9.3,
+              "feel_attitude": 9.3,
+              "o_performance": 9.5,
+              "total": 46.9
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.2,
+              "rhythm": 9.5,
+              "diction": 9.3,
+              "feel_attitude": 9.3,
+              "o_performance": 9.4,
+              "total": 46.7
+            }
+          ],
+          "grand_total": 93.6,
+          "feedback": "J1: Excelent singing, ellam nalla iruku but voice konjam strain agi iruku , idu posting thaana konjam voice rest eduthu kooda paadalam,strain voice la paadovadhala landing and sustain vara padu maidhree iruku, then unga diction aa neou kuda kooda paarunga . ATB. J2: Beautiful Singing. Feel and expressions beautiful. High notes ellam azhaga paadirukenga. Pallavi la Swarnalatha ma sila expressions kuduthirupanga mannan, kannan words la adu add pannirukalam. Ch1 , Ch2 - First few lines la - Thaalatum, seerata, neerada, neeyaala words dynamics clarity kudukalam. Duet song nala neenga duet mode la lines divide panni kuda paadirukalam. ATB"
+        },
+        {
+          "name": "Srikaran",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 8.9,
+              "rhythm": 9.5,
+              "diction": 9.3,
+              "feel_attitude": 9.2,
+              "o_performance": 9.5,
+              "total": 46.1
+            },
+            {
+              "judge": "J2",
+              "pitch": 8.6,
+              "rhythm": 9.5,
+              "diction": 9.2,
+              "feel_attitude": 8.5,
+              "o_performance": 9.2,
+              "total": 45.0
+            }
+          ],
+          "grand_total": 91.1,
+          "feedback": "J1: Lovely singing. Feel ellam nalla kuduthu irukeenga,diction issue padalanum sooriyane vandi neenga chooriyane pronounce pandrenga. ungaluku la za nalla varudhu but en sila place la za illame la nu pronounce pandrenga? Kizakku , azagiya nala madhree sila place adu konjam paarunga,charanam la kalai eduthe line landing la sruthi flat ,chinna chinna visayam thaan next time idalam note pani super ah paadunga ATB. J2: Good Singing. Suggestion: Indha song konjam soft aa paadalam. Unga pronounciation konjam check panikonga. Konjam kudsa extra feel add panirukalam. Charanam la pitch light aa differ aagudu. Charanam mudinju pallavi pitch differ aagudu. Mathabadi great attempt. ATB"
+        },
+        {
+          "name": "Janani",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.0,
+              "rhythm": 9.5,
+              "diction": 9.3,
+              "feel_attitude": 9.3,
+              "o_performance": 9.2,
+              "total": 46.3
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.1,
+              "rhythm": 9.5,
+              "diction": 9.3,
+              "feel_attitude": 9.0,
+              "o_performance": 9.5,
+              "total": 46.1
+            }
+          ],
+          "grand_total": 92.4,
+          "feedback": "J1: ATB pronounce pani irukeenga1st time kindly checkand suthamunnu varanum neenga vara madhree pronounce pani irukeenga, naraya time botttom chorus portion ellam double join pani paada try panunga nu apple pani irunda innum nalla irundu iruku , next time idalaam paathukonga ATB. J2: dynamics kuduthirupanga. Charanam 1 - Veeram feel irukum, neenga konjam soft aa paadirukenga. Charanam1 chinna pitch differ aayiruku. Charanam 2 azhaga paadirukenga. Song pallavi most places leed+Chorus varum, neenga Chorus portions 2nd join la paadi irukalam. Other lines overlap panirukalam. ATB"
+        },
+        {
+          "name": "SSK",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.0,
+              "rhythm": 9.5,
+              "diction": 9.4,
+              "feel_attitude": 8.9,
+              "o_performance": 9.5,
+              "total": 46.3
+            },
+            {
+              "judge": "J2",
+              "pitch": 8.9,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.5,
+              "o_performance": 9.2,
+              "total": 45.6
+            }
+          ],
+          "grand_total": 91.9,
+          "feedback": "J1: Beautiful singing. Good feel , idu duet song double join pani paadi irunda landing issue la irundu escape agi irukalam. naraya place la short short ah land pani irukeenga, sila place la sangathies sariya vizala (mounma, moodumai) feel konjam kooda kuduthu irukalam, then diction kaalile word neenga kasiula nu paadi irukeenga , next time idalaam correct panitu super ah paadunga ATB. J2: Great attempt. Suggestion: Indha song original ia eila line vibratos, dynamics kuduthirupanga. Andha dynamics oda semthapola feel feel kuduthirupanga. Neenga try panniruykenga but andha dynamics clarity kudukalam. Charanam2 ia sila places pitch light aa differ aayiruku. Pallavi word Thaalatta' word edam 'Thaanasta' nu paadirukenga. But overall azhaga iruku. ATB"
+        },
+        {
+          "name": "ANANYA",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.0,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.9,
+              "o_performance": 9.5,
+              "total": 46.4
+            },
+            {
+              "judge": "J2",
+              "pitch": 8.5,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.5,
+              "o_performance": 9.0,
+              "total": 45.0
+            }
+          ],
+          "grand_total": 91.1,
+          "feedback": "J1: Beautiful singing.2nd use pani paadi irunda enna advantage soldrenm landing neraya place ia sariya pani irukalam. 1st charanam last line ia breath control illama landing fulla poche,pallavi ie ennoda sada vara vaa line different style paadi irukeenga, chorus ellam double join pani irunda innum nalla irundu irukum. charanam la innalum line flat , next round la idalam note pani super ah paadunga ATB. J2: Great Attempt. Suggestion: Pallavi neenga half scale low aa paadirukenga. Charanam la small pitch out and landing ennalum ingu check panikonga. Inum konjam playful attitude add panirukalam. Duet song nala thunet dout mode opt panirukalam appo 2 portions easy aa execute panirukalam. ATB"
+        }
+      ]
+    },
+    {
+      "image": "IMG_3576.png",
+      "team": "PHOENIX BIRDS",
+      "theme": "IM SURYA",
+      "round": 2,
+      "year": "1997",
+      "team_total": 460.2,
+      "members": [
+        {
+          "name": "Rafik",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.1,
+              "rhythm": 9.5,
+              "diction": 9.4,
+              "feel_attitude": 8.9,
+              "o_performance": 9.5,
+              "total": 46.4
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.2,
+              "rhythm": 9.5,
+              "diction": 9.3,
+              "feel_attitude": 9.0,
+              "o_performance": 9.5,
+              "total": 46.5
+            }
+          ],
+          "grand_total": 92.9,
+          "feedback": "J1: Nice singing, unga main problem unga track . posting song thaana track and setting check pani irukalame, unga track issue naala unga feel, dynamics ellam sariya veliya thareyala,charanam 1 la neeyum poonai naan illaye line oru modulation varum but neenga ada flat ah paadi irukeenga,songadlaam note pani next round ia clear ah paadunga ATB. J2: Superb attempt. Suggestion: SPB sir words azhuthi pronounce panirupaaru. Words konjam azhuthi pronounce panirukalam. Attitude konjam kuda add panirukalam. Sainthathe lines konjam sustain panirukalam and extra feel add panirukalam. ATB"
+        },
+        {
+          "name": "Aparana Harindran",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.1,
+              "rhythm": 9.5,
+              "diction": 9.3,
+              "feel_attitude": 9.2,
+              "o_performance": 9.1,
+              "total": 46.3
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.3,
+              "rhythm": 9.5,
+              "diction": 9.2,
+              "feel_attitude": 9.2,
+              "o_performance": 9.1,
+              "total": 46.3
+            }
+          ],
+          "grand_total": 92.4,
+          "feedback": "J1: Beautiful Singing. 2nd join use panama paadi irukeenga adnala enna issue soldren paarunga naraya landing problem, both the charanam la vara counter portion sustain illama short ah complet pani next line paadi irukeenga., manam yeangudhe la vara sangathii innum kooda perfection varam , then vasanthe la vara sangathis sariya place agalai feel innum kuduthu irukalam,both the charanam la same place repeated mistake, then sila place la manam virumbudhey unnai that unnai word pronouncation differeci an iruku adu check pananum, feel innum koooda kuduthu irukalam. chorus portion ellam paadi irukeenga fine but double join pani overlap pani irunda innum super ah inundu irukum,next round ia idalam illama super ah paadunga ATB. J2: Superb Singing. Ease singing. Suggestion: Chorus, Charanam counters ellam second join ia cover panni irukalam, song solo pola present aagudu. Charanam first 2 lines neenga konjam different aa paadarenga. Unga pronounciation konjam check panikonga 'Unnai', 'paarvai pathai', 'punnagai''munne', 'ponathu' different aa pronounce panrenga. Song ola feel kodam ie kuda add panirukalam. Ch1 mudinju immediate vara Manam Virumbudhe oru Nirutham lurku adu neenga different aa paadirukenga. Second charanam munaadi chorus Thathi thagadi jathi husky aa paadirukalam. Otherwise great attempt. ATB"
+        },
+        {
+          "name": "Surya",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.0,
+              "rhythm": 9.5,
+              "diction": 9.3,
+              "feel_attitude": 9.0,
+              "o_performance": 9.5,
+              "total": 46.3
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.2,
+              "rhythm": 9.5,
+              "diction": 9.3,
+              "feel_attitude": 9.2,
+              "o_performance": 9.5,
+              "total": 46.2
+            }
+          ],
+          "grand_total": 92.5,
+          "feedback": "J1: Lovely singing. In pallavi vinmeengal line high para appo slight ah flat ah paadi irukeenga,pugaz maindhan thondrinaane landing ia vara sangathis sariya vizala, vakidoh ah paadi irukeenga melu nu pronounce pani irukeenga all the times, feel innum kooda try pani irukalam but kudutha varaikum good. J2: Beautiful rendition. Chorus second join ia paadirukenga appreciable. Feel ie super. Voice strain ayiruku. Charanam 'xailondru pookavum' lendu rhythm lag aayiurku angendu beats thalli paadirukenga ATB"
+        },
+        {
+          "name": "Good Mind",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.0,
+              "rhythm": 9.5,
+              "diction": 9.1,
+              "feel_attitude": 8.4,
+              "o_performance": 9.3,
+              "total": 45.3
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.2,
+              "rhythm": 9.5,
+              "diction": 9.0,
+              "feel_attitude": 9.0,
+              "o_performance": 9.0,
+              "total": 45.6
+            }
+          ],
+          "grand_total": 91.5,
+          "feedback": "J1: Good singing,chorus ellam paadi irukeenga fine but adula pitch issue iruku.diction issue ila pirindha kuyilum not kuyilim, then adakaadhey aasai neenga adakaadhu nu pronounce pani irukeenga, main inda song ku anda laziness inakkum oru madhree somberi feel ia paadi irupaanga SBP sir anda feel and attitude missing ,just oru melodie song madhree paadi irukeenga, sila place landing ia vara sangathies sariya place agala,next round ia idalam note pani sari paadi paadunga ATB. J2: Superb Execution. Chorus, hummings ku second join add panirukalam. Female humming voice modulation Superb. Dynamics ia Vaa aruge each time azhaga paadirukenga. Suggestion : Unga pronounciation konjam check pannikonga words - Vellam, Ullam, Magale, Penne. Charanam ia 1-2 place minute pitch differ aagudu. Chorus second join volume konjam 5pts kammi aa vechirunda inum azhaga irukum keka. ATB"
+        },
+        {
+          "name": "Sai Saranya",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 8.7,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.8,
+              "o_performance": 9.1,
+              "total": 45.6
+            },
+            {
+              "judge": "J2",
+              "pitch": 8.5,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.8,
+              "o_performance": 9.0,
+              "total": 45.3
+            }
+          ],
+          "grand_total": 90.9,
+          "feedback": "J1: Nice singing , please concentrate on your sruthi, naraya place ia half note ia paadi irukeenga espically pallavi la ending chinna idhaz line ellam flat ah irunduchi, feel and dynamics konjam missing, charanam la innalum line flat , next round la paadura appo idu ellam solve panitu super ah paadunga ATB. J2: Great Attempt. Suggestions: Chorus cover pannale. Second join ia chorus and overlap panirukalam. Inum konjam attitude and bodhai feel add panirukalam.Charanam 2 - Start and lines slight aa pitch differ ayiruku. ATB"
+        }
+      ]
+    },
+    {
+      "image": "IMG_3577.png",
+      "team": "HUSTLERS",
+      "theme": "ANULEKA",
+      "round": 2,
+      "year": "1999",
+      "team_total": 460.5,
+      "members": [
+        {
+          "name": "Anulekashri",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 8.9,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.9,
+              "o_performance": 9.0,
+              "total": 45.8
+            },
+            {
+              "judge": "J2",
+              "pitch": 8.9,
+              "rhythm": 9.3,
+              "diction": 9.5,
+              "feel_attitude": 9.2,
+              "o_performance": 8.8,
+              "total": 45.7
+            }
+          ],
+          "grand_total": 91.5,
+          "feedback": "J1: Nice singing, unga main problem unga track . posting song thaana track and setting check pani irukalame, unga track issue naala unga feel, dynamics ellam sariya veliya thareyala,charanam 1 la neeyum poonai naan illaye line oru modulation varum but neenga ada flat ah paadi irukeenga,songadlaam note pani next round ia clear ah paadunga ATB. J2: Superb singing. Suggestion: Unga settings check panikonga. Echo, esh feel oda azhaga paadirukenga ana track, settings dominate pannudu. Last pallavi enthan penmai portions lendu lag iruku settings nala. Next time track, settings check panikonga. ATB"
+        },
+        {
+          "name": "Bigil",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.1,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.9,
+              "o_performance": 9.5,
+              "total": 46.8
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.3,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 9.3,
+              "o_performance": 9.5,
+              "total": 47.1
+            }
+          ],
+          "grand_total": 91.8,
+          "feedback": "J1: Lovely singing, Slight flat note in some place and nooru kodi line ia oru small enrgy and bold voice la paadi irupaanga Hari sir neenga anda line romba mind and low ah paadi irukeenga adu konjam concentrate pani irunda nalla irundu irukum, female chorus edum paadala why? 2nd join use pani paadi irunda innum nalla irukum , next time idalam note pani idalaaminga.ATB. J2: Beautiful singing. Nooru kodi, kangal mattum lines original ia 2 difference feel and 2 contrast aa irukum andha differentiation kuduthirukalam. Chorus 2nd join ia cover panirukalam. Again Nooru kodi, kangal mattum lines chorus ia paadirupanga adu present panirukalam. ATB"
+        },
+        {
+          "name": "Monika Kumar",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.1,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 9.2,
+              "o_performance": 9.5,
+              "total": 46.8
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.3,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 9.3,
+              "o_performance": 9.5,
+              "total": 47.1
+            }
+          ],
+          "grand_total": 93.9,
+          "feedback": "J1: Excelent singing, chorus portion ellam romba azaga paadi irukeenga, feel innum konjam kooda kuduthu irukalam softness illama iruku , sila places ia flat note ia paadirukeenga charanam la 2nd time vara sirumi thaan eppodhennal pen seiguval line , mothamaga moodu moodu .aazam sendru thedu illamyin theval line next time idalam note pani correct panikoonga . ATB. J2: Lovely Singing. Chorus fillers ellam azhaga 2 joins ia cover panirukenga. Suggestions: Singing volume konjam kammi panirukalam. Feel attitude konjam extra add panirukalam. Charanam Sirumithaan, thedu-thedu, ilamyin theval places flat aa paadirukenga. Otherwise Beautiful rendition. ATB"
+        },
+        {
+          "name": "Kathir",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.2,
+              "rhythm": 9.5,
+              "diction": 8.9,
+              "feel_attitude": 9.1,
+              "o_performance": 8.9,
+              "total": 45.6
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.3,
+              "rhythm": 9.5,
+              "diction": 9.2,
+              "feel_attitude": 9.3,
+              "o_performance": 8.8,
+              "total": 46.1
+            }
+          ],
+          "grand_total": 91.7,
+          "feedback": "J1: Good singing, unga singing ia pitching ia romba issue illa but words pronouncation last time song madhree konjam compressed ah iruku open voice la illadha madhree nasal la paadura madhree iruku, diction la za kadipa concentrate pananum, female chorus edum try panave illa why? naanga soli irukom thaana , next round ia konjam idamal check panitu super ah paadunga ATB. J2: Great attempt. Feel azhaga iruku. Suggestions: Indha song half and half lead portions and fillers iruku. First join ia cover pannale. Charanam 2 humming overlap cover pannale. Second join ia chorus and overlap panirukalam. Words pronounciation konjam check panikonga. ATB"
+        },
+        {
+          "name": "Raja Puduval",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.1,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.8,
+              "o_performance": 8.9,
+              "total": 45.8
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.0,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.9,
+              "o_performance": 8.9,
+              "total": 45.8
+            }
+          ],
+          "grand_total": 91.6,
+          "feedback": "J1: Super singing, shruthi ellam nalla iruku slight pitch issu here and there,charanam 2 iaa urimai line ia voice crack agi iruku redo pani irukalam, C2 la vara female overlap part edum paadala female chorus edum paadala why? 2nd join use pani paadi irukalame, same C2 la last unnmai ellam line ia modulation varum adu neenga try panala, next round la idu ellam note pani innum clear ah paadunga ATB. J2: Great attempt. Suggestions: Chorus cover pannale. Second join ia chorus and overlap panirukalam. Inum konjam attitude and bodhai feel add panirukalam.Charanam 2 - Start and lines slight aa pitch differ ayiruku. ATB"
+        }
+      ]
+    },
+    {
+      "image": "IMG_3578.png",
+      "team": "SM RAAGA REBELS",
+      "theme": "NETHAJI J2C",
+      "round": 2,
+      "year": "1995",
+      "team_total": 454.1,
+      "members": [
+        {
+          "name": "Nethaji",
+          "compliance": {
+            "year": "NO",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 8.9,
+              "rhythm": 9.5,
+              "diction": 9.2,
+              "feel_attitude": 9.1,
+              "o_performance": 9.4,
+              "total": 46.1
+            },
+            {
+              "judge": "J2",
+              "pitch": 8.8,
+              "rhythm": 9.5,
+              "diction": 9.2,
+              "feel_attitude": 9.0,
+              "o_performance": 9.2,
+              "total": 45.7
+            }
+          ],
+          "grand_total": 91.8,
+          "feedback": "J1: place words sariya pronounce panala, sila place la naraya sinkara madhree kekudhu,porukka ,munna pinna,idalam super ah paadunga ATB. J2: Good Singing. Suggestion: Song la pitch konjam half note kammiya paadirukenga. Pallavi nala iruku slight ia silpery aa iruku. Charanam 1 sila places plain aa paadirukenga. Charanam 1,2 pitch differ aagudu. Konajm kuda energy attitude add pannaam. ATB. [Year compliance NO; member grand total cell blank/unreadable on scorecard]",
+          "note": "grand total cell blank on card; recovered via J1+J2 and team-total reconciliation"
+        },
+        {
+          "name": "Kodeeswaran",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 8.5,
+              "rhythm": 9.5,
+              "diction": 9.4,
+              "feel_attitude": 8.6,
+              "o_performance": 9.5,
+              "total": 45.5
+            },
+            {
+              "judge": "J2",
+              "pitch": 7.9,
+              "rhythm": 9.5,
+              "diction": 9.3,
+              "feel_attitude": 8.5,
+              "o_performance": 9.3,
+              "total": 44.5
+            }
+          ],
+          "grand_total": 90.0,
+          "feedback": "J1: Konjam hard ah iruku, dynamins and landing ellam naraya place ia sariya place agala,C1 la paai podum line, thaalatiye line. C2 deva kanniye line then last ia sooruttha inda ellam sruthi flat ah paadi irukeenga diction ia unmai not unnai , idalaam note pani solve pannit next timr super at paadunga ATB. J2: Good Singing. 2nd join ia chorus, double voice paadirukenga good. Suggestion: Velli Nilave pitching check pannikonga. Song ia Feel, Song dynamics add pannalam. ATB"
+        },
+        {
+          "name": "Indrani",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 8.1,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.2,
+              "o_performance": 9.5,
+              "total": 44.8
+            },
+            {
+              "judge": "J2",
+              "pitch": 8.1,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.5,
+              "o_performance": 9.5,
+              "total": 45.1
+            }
+          ],
+          "grand_total": 89.9,
+          "feedback": "J1: Lovely singing. Neenga shruthi ia naraya concentrate pananum , naraya place la flat ah paadi irukeenga, voice romba shaky ah iruku sila place ia, charanam ia landing ia vara sangathis sariya vizala, next time song naraya practice panitu super ah paadunga GUD LUCK. J2: Good Singing. Suggestions: Charanms nalla paadirukenga. Indha song ia Rhythm tricky adu nalla handle panirukenga. First humming pitch offiriku. Pallavi each time pitch differ ayiurku. Plain aa paadarenga konjam rounded aa paadalam. ATB"
+        },
+        {
+          "name": "Riyana",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 8.4,
+              "rhythm": 9.2,
+              "diction": 9.5,
+              "feel_attitude": 8.9,
+              "o_performance": 9.5,
+              "total": 45.5
+            },
+            {
+              "judge": "J2",
+              "pitch": 8.8,
+              "rhythm": 8.5,
+              "diction": 9.5,
+              "feel_attitude": 8.8,
+              "o_performance": 9.1,
+              "total": 44.7
+            }
+          ],
+          "grand_total": 90.2,
+          "feedback": "J1: Good singing, Song ia all portion covered good, sruthi ia konjam concentrate pananum ,counter part humming naraya place ia flat ah paadi irukeenga, C1 uyir veenai line ooyamal oodum, inga sadi flat aa paadirukeenga next time idalam time timing miss pani irukeenga,next time inda mistake ellam note pani clear panitu super ah paadunga ATB. J2: Good Singing. Suggestion: Chorus neenga 2nd join potu overlap panirukalam. Sila places Rhythm miss aayiruku. Kadhal lduthan vara edam rhythm thalli paadirukenga. Pallavi pitch check panikonga. Charanam 2 nala paadirukenga. Kadhala lines ia feel add pannalam. ATB"
+        },
+        {
+          "name": "Dev Era",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.0,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.9,
+              "o_performance": 9.4,
+              "total": 45.3
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.2,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 9.2,
+              "o_performance": 9.5,
+              "total": 46.9
+            }
+          ],
+          "grand_total": 92.2,
+          "feedback": "J1: Super singing, feel ellam nalla iruku, sila place ia slight pitch issue high note para appo, but song ia vara dynamics naraya place ia missing, unga own style ia paadi irukeenga competition ia singadly thaana prefer pananum, chorus part paadala, next time idalaam note pani solve panitu super ah paadunga ATB. J2: Superb singing. Unga singing ia calm and composed aa Ease ooda paadiurkenga. Suggestion: Overall good performance. Unga sustains, landings check panikonga."
+        }
+      ]
+    },
+    {
+      "image": "IMG_3579.png",
+      "team": "SILENT BEATS",
+      "theme": "BUTTERFLY",
+      "round": 2,
+      "year": "1990",
+      "team_total": 460.1,
+      "members": [
+        {
+          "name": "Kamesh",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.3,
+              "rhythm": 9.5,
+              "diction": 9.2,
+              "feel_attitude": 9.1,
+              "o_performance": 9.5,
+              "total": 46.6
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.2,
+              "rhythm": 9.5,
+              "diction": 9.2,
+              "feel_attitude": 9.3,
+              "o_performance": 9.5,
+              "total": 46.7
+            }
+          ],
+          "grand_total": 93.3,
+          "feedback": "J1: Excelent singing.semmaya paadi irukeenga attitude ellam lovely, but sila landing like kadhal kodi, kaliya illa flat ah paadi irukeenga.inda landing ellam different from original competition vara appo originality thaana follow pananum , sila diction word 7, 8 naatkal eachu word neenga elalu ia varudhu. then raaja yogam ot raja bogam. inda mistake ellam illama next song ia super ah paadunga ATB. J2: Superb Singing. Good Attitude. Good feel. Chorus and fillers covered.Suggestion: Check pronounciation - Perinbam, Kanne. Charanam1, Charanam2 start pitch differ aagudu. Last modulations super. ATB"
+        },
+        {
+          "name": "Butterfly",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 8.9,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.8,
+              "o_performance": 9.3,
+              "total": 46.1
+            },
+            {
+              "judge": "J2",
+              "pitch": 8.5,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.8,
+              "o_performance": 9.0,
+              "total": 45.3
+            }
+          ],
+          "grand_total": 91.5,
+          "feedback": "J1: Beautiful singing, feel ellam innum azaga la varudhu, naraya landing ia issue, start humm ia not like original kindly check, naraya landing ia issue iruku like. uchakattam, un balatha kaatu then all time vidiya vidiya line ia breath control illa, naraya words neegale sustain pandrenga but original ia appde varadhu so competition ia paadura appo modulation is not allowed, kindly note all the mistake next round ia idalaam panama super ah paadunga ATB. J2: Good Singing. Suggestion: First dialogua inum husky aa irukalam. Vidiya vidiya lines each time hurry ia mudikarenga. Please check your sustains, landings. Specially Subharatri, ohooo. ATB"
+        },
+        {
+          "name": "SPB Rasigan",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.4,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 9.4,
+              "o_performance": 8.8,
+              "total": 46.6
+            },
+            {
+              "judge": "J2",
+              "pitch": 8.9,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.9,
+              "o_performance": 9.3,
+              "total": 46.1
+            }
+          ],
+          "grand_total": 92.7,
+          "feedback": "J1: Nice singing, mistake solla edum illa but unga setting ia sariya illadanala ungaluku overall presentation ia marks poda mudeyala, idu posting competition thaana bro song paadtu review ketu save pandal or song save pana appuram sariya illana again paadi irukalam 5 days time iruku la, unga setting paakama paadunala marks poche ia, sari next time idalaam check panitu super ah paadunga ATB. J2: Good Singing. Suggestion: Voice strained aa iruku. Pallavi nalla iruku. Charanam high appo throat crack aagudu. Konjam soft aa paadalam. ATB"
+        },
+        {
+          "name": "Kalaivani",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 8.8,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 9.0,
+              "o_performance": 9.0,
+              "total": 45.8
+            },
+            {
+              "judge": "J2",
+              "pitch": 8.5,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 9.0,
+              "o_performance": 9.5,
+              "total": 46.7
+            }
+          ],
+          "grand_total": 90.6,
+          "feedback": "J1: Nice singing, please concentrate on your shrutthi, high note para appo flat ah paadi irukeenga 1st time nenjame paadura appo, then C1 ia oru naal line C@ la adadaa and alaigal inda line lellam pitch issue, feel pathala romba Raw ah paadi irukeenga , next time idalam change panikoonga , ATB. J2: Good singing. Suggestion: Unga track, settings check panikonga. Neraya noise iruku. Track quality nala neenga azhaga paadinadu quality effect aagudu. Sila edam plain aa paadirukenga rounded aa paadalam. Line 0 Kadhal Devan, Katru Vaangi soft aa paadalam. Last pallavi ia pitch shart paa padrukenga. ATB"
+        },
+        {
+          "name": "Vasan",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 8.7,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 9.0,
+              "o_performance": 9.5,
+              "total": 46.7
+            },
+            {
+              "judge": "J2",
+              "pitch": 8.9,
+              "rhythm": 9.5,
+              "diction": 9.1,
+              "feel_attitude": 8.5,
+              "o_performance": 9.3,
+              "total": 45.3
+            }
+          ],
+          "grand_total": 92.0,
+          "feedback": "J1: Excelent singing, Start aalapu sariya paadi irukalam konjam flat ah irunduchi but song romba azaga paadi irukeenga feel ellam good, but diction la naraya errore, poonkuyile neenga poonkilye nu paadi irukeenga, kaaviri karaiyellam karaigaleelam illa, then za letter word ia paadi irukeenga idalam correct panna next time semmaya irukum ATB. J2: Good Singing. Suggestion: Unga pronunciation check pannikonga. Song la dynamics doubtful aa paadirukenga. Charnam 1 la Anbe dynamics check pannikonga. Konjam koda feel add pannalam. Neraya edam plain aa paadarenga. ATB"
+        }
+      ]
+    },
+    {
+      "image": "IMG_3580.png",
+      "team": "VIP ROCKERZZZ",
+      "theme": "PRAVEEN SPIKES",
+      "round": 2,
+      "year": "2001",
+      "team_total": 459.9,
+      "members": [
+        {
+          "name": "Praveen Spikez",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.3,
+              "rhythm": 9.5,
+              "diction": 9.3,
+              "feel_attitude": 9.1,
+              "o_performance": 9.5,
+              "total": 46.7
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.3,
+              "rhythm": 9.5,
+              "diction": 9.3,
+              "feel_attitude": 9.3,
+              "o_performance": 9.5,
+              "total": 47.1
+            }
+          ],
+          "grand_total": 93.8,
+          "feedback": "J1: Excelent singing, chorus ellam super ah paadi irukeenga pitch maximum super half note ia paadirukenga sligt ah sila place half note,inda song ia attitude konjam kooda kuduthu irukalam anda fun josh innum add pani irunda semma, diction ia does'nt word pronouncation konjam kooda konjals varanum naenga pronounce pandra appo word sariya place agala,then start thogayara ia signaie line ia neenga kuduthe modulation original ia irukadhu please try to follow the originality, avvalavu thaan otherwise super rendition. ATB. J2: Excellent Singing. Chorus, 2nd join nalla use pannirenga, last time kuda correct aa use pannenge. Output romba nalla iruku. Suggestions: Why Doesn't she varapo each time appo Doesn't word kola clarity ile. Sila edam light aa pitch differ aagiruku. Oru 2-3 points music konjam low paninarunda song romba effective aa irundirukum. On the whole romba neat presentation, output. ATB"
+        },
+        {
+          "name": "Miss Miracle",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.5,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 9.3,
+              "o_performance": 9.2,
+              "total": 47.0
+            },
+            {
+              "judge": "J2",
+              "pitch": 7.9,
+              "rhythm": 9.5,
+              "diction": 9.3,
+              "feel_attitude": 8.7,
+              "o_performance": 9.5,
+              "total": 44.9
+            }
+          ],
+          "grand_total": 91.9,
+          "feedback": "J1: Wonderful singing,duel mode option use pani perfect ah paadi irukeenga, only mistake is unga setting, paadura appo voice matum naraya kekudhu music romba low agiduchi, inda issue naala feel sariya kedakala, next time setting paaka paadunga ATB. J2: Great Singing. Chorus ellam attend panirukenga appreciable it. Fillers last pallavi lines double join ellam appreciable pannion. Suggestion: Indha song neenga melody aa paadirukenga. Base voice la try panirukalam. Jayasri ma base ia attitude oda paadirupanga edu try panni paarunga. Sila edam la pitch differ aagudu specially chorus and counters appo pitch issue iruku. last andha overlap fillers kuda paadirukenga appreciable it. Song base voice ia try panni irukalam attitude konjam kuda add panirukalam ana azhag airundiruku. ATB"
+        },
+        {
+          "name": "Music Romeo",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 8.8,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.5,
+              "o_performance": 9.5,
+              "total": 45.1
+            },
+            {
+              "judge": "J2",
+              "pitch": 8.9,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 8.8,
+              "o_performance": 9.3,
+              "total": 45.4
+            }
+          ],
+          "grand_total": 90.5,
+          "feedback": "J1: not unnai theara, kuzhandhai not kulandhai.inda madhree naraya diction errirku, c1 ia nee ppaakum ponvasanthe line high la poguna appo sruthi reach agala flat agiduchi, same c1 ia poo vasanthe kaalam, c2 ia karpanai yeavum line landing ia vara sanhathi sariya place agala anda landinga issue kooda iruku adu ellam konam. C2 ia Karpanagal yaavum. Oliye words ku Hari sir oru vibrato kaduthiyaru neenga andha places plain aa mudichirukenga. ATB for further rounds. J2: Lovely singing. Unga chorus part vere too good so gave you full marks in that crelete. but lead singing ia naraya place ia sruthi vilagi iruku espically all the pallavi portions, so concentrate on your sruthi, inga song ia vara attitude missing song azaga but josh and happiness ajith sir ah love pananum nu vara feel adulam innum try pani irukalam, next round ia idalam concentrate pani super ah paadunga ATB"
+        },
+        {
+          "name": "Butterfly",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 8.9,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 9.0,
+              "o_performance": 9.5,
+              "total": 46.4
+            },
+            {
+              "judge": "J2",
+              "pitch": 7.9,
+              "rhythm": 9.5,
+              "diction": 9.3,
+              "feel_attitude": 8.9,
+              "o_performance": 9.5,
+              "total": 45.1
+            }
+          ],
+          "grand_total": 91.5,
+          "feedback": "J1: Great attempt and Output. Chorus portions and eila fillers cover panirukenga appreciable azhaga iruku and chinna fillers ellam kuda paadirukenga. Suggestions: Naraya edam pitch differ aagudu, Charanam1 ia Ennakian uyaram lendu pitch romba differ aachu. Unga landings correct pannikanum. Vasikaral lines check panikonga. Attitude and diction konjam kuda style add panirukalam. Overall azhaga iruku. ATB"
+        },
+        {
+          "name": "Siri",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.2,
+              "rhythm": 9.1,
+              "diction": 9.3,
+              "feel_attitude": 9.4,
+              "o_performance": 9.5,
+              "total": 46.5
+            },
+            {
+              "judge": "J2",
+              "pitch": 8.9,
+              "rhythm": 9.3,
+              "diction": 9.2,
+              "feel_attitude": 9.0,
+              "o_performance": 9.3,
+              "total": 45.7
+            }
+          ],
+          "grand_total": 92.2,
+          "feedback": "J1: Great singing, energy attitude ellam super starting ia timing slight ah lag ah paadi irukeenga adu half song vara maintain achi aduku appuram pickup panniteenga,then sila place la illama paadi irukeenga ali the same mistake , C1 ennavo ennavo 2nd time paaruda appo sligh ah flat iruku appram C2 ennalum line correct panitu super ah paadunga ATB. J2: Beautiful Singing. Voice modulations try panirukenga nalla iruku. Chorus portions 2nd join ia use pannadu appreciable. Suggestions: Track konjam check pannikonga. Indha song ia vere eila nalla track iruku. Unga pronounciation 'Maliyapoo male', 'Kizhakaai', 'velanja' konjam check pannikonga. Attitude konjam kuda extra add panirukalam. Sila places pitch differ aagudu. Song ia eila dynamics try panirukalam. Overall good output. ATB"
+        }
+      ]
+    },
+    {
+      "image": "IMG_3581.png",
+      "team": "THE BEATLES",
+      "theme": "AAROHI",
+      "round": 2,
+      "year": "2004",
+      "team_total": 449.3,
+      "members": [
+        {
+          "name": "Meera MS",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 8.5,
+              "rhythm": 9.5,
+              "diction": 8.5,
+              "feel_attitude": 8.4,
+              "o_performance": 8.6,
+              "total": 43.5
+            },
+            {
+              "judge": "J2",
+              "pitch": 8.5,
+              "rhythm": 9.5,
+              "diction": 8.9,
+              "feel_attitude": 9.1,
+              "o_performance": 9.0,
+              "total": 45.0
+            }
+          ],
+          "grand_total": 83.5,
+          "feedback": "J1: Good singing,please concentrate on your sruthi and diction , song ia naraya place flat ah paadi irukeenga lika,unaken pureyavillai,C1 ia pirandha palanai,Unadhan padukakrai ingalam flat,C1 ia unakedhu line different from original, last humming la counter part paadala and last 2 times humming paadave illa its a kind of incomplete the song, next time idalam super ah paadunga ATB. [Note on scorecard: raw grand total 88.5, 'late submission -5' penalty applied, final grand total 83.5]"
+        },
+        {
+          "name": "Nithi",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.2,
+              "rhythm": 9.5,
+              "diction": 9.0,
+              "feel_attitude": 9.1,
+              "o_performance": 9.3,
+              "total": 46.1
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.2,
+              "rhythm": 9.5,
+              "diction": 9.5,
+              "feel_attitude": 9.3,
+              "o_performance": 9.4,
+              "total": 47.0
+            }
+          ],
+          "grand_total": 93.1,
+          "feedback": "J1: Lovely singing, feel innum konjam kuduthu irukalam ,oru small irunda nala and female portion paada easy ah irundu irukum , that ehhh nee thazuvum line ellam breath control illama landing issue achi,diction ia kojam pakanum sindhum,maruvizhi,virahdam, pala mural inglam word wrong, start and last pallavi ia iru viziyinile landing wrong kindly check original, next time innum konjam concentrate pani super ah paadunga and in the song last part before ah cut panni iruking .ATB. J2: Excellent Singing. Dynamics. Vibratos ellam azhaga iruku. Ease singing. Suggestions: First pallavi Vizhigatie landings different aa paadirukenga. Track neenga before end cut panirukenga neenga paadina track 4.48 secs iruku neenga 4.37 ia cut paniteenga. ATB"
+        },
+        {
+          "name": "Samee",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.5,
+              "rhythm": 9.5,
+              "diction": 9.0,
+              "feel_attitude": 9.3,
+              "o_performance": 9.5,
+              "total": 46.5
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.2,
+              "rhythm": 9.5,
+              "diction": 9.0,
+              "feel_attitude": 9.3,
+              "o_performance": 9.5,
+              "total": 47.0
+            }
+          ],
+          "grand_total": 93.5,
+          "feedback": "J1: Excelent Singing. Suggestions: Breathing check pannikonga ma ungaluku 2 joins option iruku use panirenga but feel paadalam. Words pronounciation konjam check pannikonga. Iravanal, Nambikkal, Vazhkai, Latchiyam, Adhai Dhinam Muyandral. Mathabadi beautiful singing. J2: Beautiful singing, Neenga unga diction ia concentrate pananum , naraya words ia mistake pani irukeenga, some words were not properly landed, why chorus paadala? 2nd join use pani chorus ellam paadi irukalame, next time idalam note pani super ah paadunga ATB"
+        },
+        {
+          "name": "Jimcrow",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.3,
+              "rhythm": 9.5,
+              "diction": 9.0,
+              "feel_attitude": 9.3,
+              "o_performance": 8.7,
+              "total": 45.8
+            },
+            {
+              "judge": "J2",
+              "pitch": 9.2,
+              "rhythm": 9.5,
+              "diction": 9.0,
+              "feel_attitude": 8.9,
+              "o_performance": 9.5,
+              "total": 46.3
+            }
+          ],
+          "grand_total": 87.1,
+          "feedback": "J2: Beautiful Singing. Certain places romba azhaga iruku. Suggestion: Chorus, hummings paadirukalam. Voice strained aa iruku. Lines I like you. I thank you flat aa paadirukenga. Unga Pronunciation check pannikonga. ATB. [Note on scorecard: raw grand total 92.1, 'late submission -5' penalty applied, final grand total 87.1]"
+        },
+        {
+          "name": "Aarohi",
+          "compliance": {
+            "year": "YES",
+            "slogan": "YES",
+            "dp_check": "YES",
+            "tag_check": "YES"
+          },
+          "judges": [
+            {
+              "judge": "J1",
+              "pitch": 9.2,
+              "rhythm": 9.5,
+              "diction": 9.0,
+              "feel_attitude": 8.9,
+              "o_performance": 9.5,
+              "total": 46.1
+            },
+            {
+              "judge": "J2",
+              "pitch": 8.8,
+              "rhythm": 9.5,
+              "diction": 8.9,
+              "feel_attitude": 9.5,
+              "o_performance": 9.5,
+              "total": 46.0
+            }
+          ],
+          "grand_total": 92.1,
+          "feedback": "J1: Nice singing, u had a sruthi issue in some place but diction error in more place please concentrate your word pronounration properly, then inda song ia vara energy and attitude were missing but feel was good,next time idalam super ah paadunga ATB. J2: Excellent Singing. Suggestions: Sila edam tune konjam different aa paadirukenga. Vidiyamattum vidiya mattum, Vidinjapinne Vidinjapinne. Diction check panikonga words mathi paadirukenga - Evidathil Kaichal undo, Odambukulle 'Udukadicha', Vayathu mattum. ATB"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# raw scorecard photos — only needed for extraction, not the deployed app (and large)
+Images/
+# secrets (keep the app public; this just prevents accidental commits)
+.streamlit/secrets.toml
+# python / os cruft
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/

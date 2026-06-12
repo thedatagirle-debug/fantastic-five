@@ -1,0 +1,267 @@
+"""Shared data-loading and metric computation for the Fantastic Five dashboard.
+
+All scoring logic lives here so the UI stays thin. Re-reads data/members.csv and
+data/teams.csv (produced by build_dataset.py), so adding Round 4/5 images and
+re-running the build is all that's needed to refresh the dashboard.
+"""
+import os
+import numpy as np
+import pandas as pd
+
+DATA_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data")
+
+CRITERIA = ["pitch", "rhythm", "diction", "feel_attitude", "o_performance"]
+CRITERIA_LABELS = {
+    "pitch": "Pitch", "rhythm": "Rhythm", "diction": "Diction",
+    "feel_attitude": "Feel/Attitude", "o_performance": "Overall Perf.",
+}
+MY_TEAM = "GOLDEN RRR"
+
+
+def load():
+    members = pd.read_csv(os.path.join(DATA_DIR, "members.csv"))
+    teams = pd.read_csv(os.path.join(DATA_DIR, "teams.csv"))
+    for c in ["grand_total", "team_total", "penalty"] + \
+             [f"avg_{x}" for x in CRITERIA] + \
+             [f"j1_{x}" for x in CRITERIA] + [f"j2_{x}" for x in CRITERIA] + \
+             ["j1_total", "j2_total"]:
+        if c in members.columns:
+            members[c] = pd.to_numeric(members[c], errors="coerce")
+    teams["team_total"] = pd.to_numeric(teams["team_total"], errors="coerce")
+    teams["round"] = pd.to_numeric(teams["round"], errors="coerce").astype("Int64")
+    members["round"] = pd.to_numeric(members["round"], errors="coerce").astype("Int64")
+    return members, teams
+
+
+def team_standings(teams):
+    """One row per team: per-round totals, cumulative, average, trajectory slope."""
+    pivot = teams.pivot_table(index="team", columns="round", values="team_total", aggfunc="first")
+    pivot.columns = [f"R{int(c)}" for c in pivot.columns]
+    out = pivot.copy()
+    out["rounds_played"] = pivot.notna().sum(axis=1)
+    out["total"] = pivot.sum(axis=1, min_count=1)
+    out["average"] = pivot.mean(axis=1)
+    out["best_round"] = pivot.max(axis=1)
+    out["last"] = pivot.apply(lambda r: r.dropna().iloc[-1] if r.notna().any() else np.nan, axis=1)
+    out["first"] = pivot.apply(lambda r: r.dropna().iloc[0] if r.notna().any() else np.nan, axis=1)
+    out["momentum"] = out["last"] - out["first"]            # raw improvement R1 -> latest
+    out["trend"] = teams.groupby("team").apply(_slope, include_groups=False)
+    out = out.sort_values("average", ascending=False)
+    out["rank"] = range(1, len(out) + 1)
+    # captain lookup
+    cap = teams.sort_values("round").groupby("team")["captain"].last()
+    out["captain"] = cap
+    return out.reset_index()
+
+
+def _slope(g):
+    g = g.dropna(subset=["team_total"])
+    if len(g) < 2:
+        return 0.0
+    x = g["round"].astype(float).values
+    y = g["team_total"].astype(float).values
+    return float(np.polyfit(x, y, 1)[0])
+
+
+def member_standings(members):
+    """One row per member (across rounds): average + cumulative grand_total, trend."""
+    g = members.groupby(["team", "member"], as_index=False).agg(
+        rounds=("round", "nunique"),
+        avg_grand=("grand_total", "mean"),
+        total_grand=("grand_total", "sum"),
+        best_grand=("grand_total", "max"),
+    )
+    # per-criterion averages
+    for c in CRITERIA:
+        col = f"avg_{c}"
+        if col in members.columns:
+            cm = members.groupby(["team", "member"])[col].mean().reset_index()
+            g = g.merge(cm, on=["team", "member"], how="left")
+    # trend (slope of grand_total across rounds)
+    tr = members.groupby(["team", "member"]).apply(
+        lambda d: _member_slope(d), include_groups=False).rename("trend").reset_index()
+    g = g.merge(tr, on=["team", "member"], how="left")
+    g["avg_grand"] = g["avg_grand"].round(2)
+    return g.sort_values("avg_grand", ascending=False)
+
+
+def _member_slope(d):
+    d = d.dropna(subset=["grand_total"])
+    if len(d) < 2:
+        return 0.0
+    return float(np.polyfit(d["round"].astype(float), d["grand_total"].astype(float), 1)[0])
+
+
+def top_per_team(members):
+    ms = member_standings(members)
+    idx = ms.groupby("team")["avg_grand"].idxmax()
+    return ms.loc[idx].sort_values("avg_grand", ascending=False)
+
+
+def criteria_profile(members, team=None):
+    """Average per-criterion score, optionally filtered to one team."""
+    df = members if team is None else members[members["team"] == team]
+    return {c: df[f"avg_{c}"].mean() for c in CRITERIA if f"avg_{c}" in df.columns}
+
+
+def team_criteria_matrix(members):
+    """teams x criteria average-score matrix + each team's rank per criterion (1=best)."""
+    rows = {}
+    for c in CRITERIA:
+        col = f"avg_{c}"
+        if col in members.columns:
+            rows[c] = members.groupby("team")[col].mean()
+    mat = pd.DataFrame(rows)
+    mat.columns = [CRITERIA_LABELS[c] for c in mat.columns]
+    ranks = mat.rank(ascending=False, method="min").astype(int)
+    ranks.columns = [f"{c} rank" for c in mat.columns]
+    return mat, ranks
+
+
+def matchup(members, team_a, team_b):
+    """Per-criterion comparison of two teams + an auto game plan for team_a vs team_b."""
+    a = criteria_profile(members[members["team"] == team_a])
+    b = criteria_profile(members[members["team"] == team_b])
+    rows = []
+    for k in a:
+        diff = a[k] - b[k]
+        rows.append({"criterion": CRITERIA_LABELS[k], "key": k,
+                     team_a: round(a[k], 2), team_b: round(b[k], 2),
+                     "diff": round(diff, 2),
+                     "verdict": "you lead" if diff > 0.03 else ("they lead" if diff < -0.03 else "level")})
+    df = pd.DataFrame(rows).sort_values("diff")
+    their_edge = df[df["verdict"] == "they lead"]      # close these to beat them
+    your_edge = df[df["verdict"] == "you lead"]         # lean into these
+    return df, their_edge, your_edge
+
+
+def _seed_order(n):
+    """Standard single-elimination seeding order for a power-of-2 bracket."""
+    order = [1]
+    while len(order) < n:
+        m = len(order) * 2
+        order = [x for s in order for x in (s, m + 1 - s)]
+    return order
+
+
+def project_bracket(standings, members, n_seeds, metric, my_team):
+    """Seed the top n_seeds teams, predict each match by score, and trace my_team's
+    road to the title (assuming they win each round). Returns (seeds_df, rounds, my_path)."""
+    seeds_df = standings.sort_values(metric, ascending=False).head(n_seeds).reset_index(drop=True)
+    seeds_df["seed"] = range(1, len(seeds_df) + 1)
+    n = len(seeds_df)
+    score = dict(zip(seeds_df["seed"], seeds_df[metric]))
+    team = dict(zip(seeds_df["seed"], seeds_df["team"]))
+    order = _seed_order(n)
+
+    def rname(num_matches):
+        return {1: "🏅 Final", 2: "🥈 Semi-final", 4: "Quarter-final"}.get(
+            num_matches, f"Round of {num_matches * 2}")
+
+    my_seed = next((s for s, t in team.items() if t == my_team), None)
+    rounds, my_path = [], []
+    nodes = order[:]
+    while len(nodes) > 1:
+        matches, newnodes = [], []
+        for i in range(0, len(nodes), 2):
+            a, b = nodes[i], nodes[i + 1]
+            if my_seed in (a, b):                 # my_team is forced to advance
+                w = my_seed
+                opp = b if a == my_seed else a
+                my_path.append({"round": rname(len(nodes) // 2),
+                                "opponent": team[opp], "opp_seed": opp})
+            else:                                  # everyone else advances by score
+                w = a if score[a] >= score[b] else b
+            matches.append({"a": team[a], "a_seed": a, "b": team[b], "b_seed": b, "winner": team[w]})
+            newnodes.append(w)
+        rounds.append({"name": rname(len(nodes) // 2), "matches": matches})
+        nodes = newnodes
+    return seeds_df, rounds, my_path
+
+
+def member_criteria(members):
+    """Per (team, member) average of each criterion across the rounds they performed,
+    plus rounds played (handles substitutes who miss rounds)."""
+    cols = [f"avg_{c}" for c in CRITERIA if f"avg_{c}" in members.columns]
+    g = members.groupby(["team", "member"]).agg(
+        rounds=("round", "nunique"),
+        rounds_list=("round", lambda s: sorted(int(x) for x in s.dropna().unique())),
+        avg_grand=("grand_total", "mean"),
+        **{c: (c, "mean") for c in cols},
+    ).reset_index()
+    return g
+
+
+def weakest_criterion(row):
+    """Given a member_criteria row, return (criterion_key, label, score) of their lowest."""
+    vals = {c: row[f"avg_{c}"] for c in CRITERIA if f"avg_{c}" in row.index and pd.notna(row.get(f"avg_{c}"))}
+    if not vals:
+        return None, None, None
+    k = min(vals, key=vals.get)
+    return k, CRITERIA_LABELS[k], vals[k]
+
+
+# keyword -> criterion mapping for decoding Tanglish judge feedback
+_FB_CRIT = {
+    "pitch": "pitch", "sruthi": "pitch", "shruthi": "pitch", "apaswaram": "pitch",
+    "off pitch": "pitch", "scale": "pitch",
+    "rhythm": "rhythm", "beat": "rhythm", "timing": "rhythm", "tempo": "rhythm", "thaalam": "rhythm",
+    "diction": "diction", "pronunciation": "diction", "pronounce": "diction", "words": "diction",
+    "lyrics": "diction", "ucharippu": "diction",
+    "dynamics": "feel_attitude", "feel": "feel_attitude", "attitude": "feel_attitude",
+    "energy": "feel_attitude", "emotion": "feel_attitude", "expression": "feel_attitude",
+    "landing": "o_performance", "breath": "o_performance", "humming": "o_performance",
+    "modulation": "o_performance", "performance": "o_performance", "stage": "o_performance",
+}
+_PRAISE = ["superb", "beautiful", "excellent", "wonderful", "great", "lovely", "nice",
+           "good singing", "well", "perfect", "amazing", "neat", "clarity", "pure rendition"]
+
+
+def feedback_insights(text):
+    """Heuristically decode a Tanglish judge-feedback blob into:
+    {praise: [...], suggestion: 'text', focus: [criterion labels mentioned to improve]}."""
+    text = str(text or "")
+    low = text.lower()
+    praise = sorted({w for w in _PRAISE if w in low})
+    suggestion = ""
+    for marker in ["suggestion:", "suggestion ", "improve", "next time", "concentrate", "check "]:
+        i = low.find(marker)
+        if i != -1:
+            suggestion = text[i:].strip()
+            break
+    # criteria flagged anywhere in the feedback
+    focus = []
+    for kw, crit in _FB_CRIT.items():
+        if kw in low and CRITERIA_LABELS[crit] not in focus:
+            focus.append(CRITERIA_LABELS[crit])
+    return {"praise": praise, "suggestion": suggestion[:400], "focus": focus}
+
+
+def potential_table(teams, members):
+    """Potential = where a team is trending + how high its ceiling is + member depth.
+    Blends current average, upward trajectory, best-round ceiling and roster balance."""
+    st = team_standings(teams).set_index("team")
+    ms = member_standings(members)
+    # roster balance: lower spread between best & weakest member = more depth
+    bal = ms.groupby("team")["avg_grand"].agg(["mean", "min", "max"])
+    bal["spread"] = bal["max"] - bal["min"]
+    rows = []
+    for t in st.index:
+        avg = st.loc[t, "average"]
+        trend = st.loc[t, "trend"]
+        ceiling = st.loc[t, "best_round"]
+        spread = bal.loc[t, "spread"] if t in bal.index else np.nan
+        rows.append({"team": t, "avg": avg, "trend": trend,
+                     "ceiling": ceiling, "depth_spread": spread})
+    p = pd.DataFrame(rows)
+    # normalize each component 0-1 then weight
+    def nz(s, invert=False):
+        s = (s - s.min()) / (s.max() - s.min()) if s.max() > s.min() else s * 0
+        return 1 - s if invert else s
+    p["potential_score"] = (
+        0.40 * nz(p["avg"]) +
+        0.30 * nz(p["trend"]) +
+        0.15 * nz(p["ceiling"]) +
+        0.15 * nz(p["depth_spread"], invert=True)
+    ).round(3)
+    return p.sort_values("potential_score", ascending=False).reset_index(drop=True)

@@ -1,0 +1,484 @@
+{
+  "records": [
+    {
+      "image": "IMG_3537.png",
+      "team": "MYSTIC VOICES",
+      "theme": "JHON MARVEL",
+      "round": 1,
+      "year": "1995",
+      "team_total": 426.7,
+      "members": [
+        {
+          "name": "Archu",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.4, "rhythm": 9.1, "diction": 8.8, "feel_attitude": 8.4, "o_performance": 9.5, "total": 44.2},
+            {"judge": "J2", "pitch": 8.5, "rhythm": 9.0, "diction": 9.0, "feel_attitude": 8.8, "o_performance": 9.2, "total": 44.5}
+          ],
+          "grand_total": 88.7,
+          "feedback": "Beautiful Singing,starting la timing slight lag then u managed, chranam la sila place sangathis sariya vizala, then diction sila words pronounciation sariya place agala, words drag agudhu idu ellam concentrate pani nect round super ah paadunga ATB\nSuperb singing and execution. Feel and attitude apt for the song. Humming was good.\nSuggestion: Slight pitch issues irundudu. Word pronounciation konjam check pannikonga. All the Best!"
+        },
+        {
+          "name": "John Marvel",
+          "compliance": {"year": "NO", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 7.9, "rhythm": 8.8, "diction": 8.2, "feel_attitude": 8.3, "o_performance": 8.9, "total": 42.1},
+            {"judge": "J2", "pitch": 8.5, "rhythm": 9.0, "diction": 8.5, "feel_attitude": 8.5, "o_performance": 8.7, "total": 43.2}
+          ],
+          "grand_total": 80.3,
+          "feedback": "Lovely singing, sorry for your minus marks neenga Bhasha nu solitu padayappa movie la irundu song paadi irukeenga, songs la sruthi sila place la flat ah iruku , song start la timing konjam lag ah iruku, diction za word la konjam concentrate panunga, feel and attitude idu ellam note pani paadunga , nect round la idu ellam clear ah kudunga ATB\nIndha song nalla paadi irukeenga.\nSuggestion: Chorus cover pannala. Second join panni chorus overlap pannirukalam."
+        },
+        {
+          "name": "Soundariya",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.3, "rhythm": 8.4, "diction": 8.6, "feel_attitude": 8.1, "o_performance": 9.1, "total": 42.5},
+            {"judge": "J2", "pitch": 8.5, "rhythm": 8.5, "diction": 8.7, "feel_attitude": 8.4, "o_performance": 9.0, "total": 43.7}
+          ],
+          "grand_total": 86.2,
+          "feedback": "Nice singing, starting humming could be better, diction za word ellam konjam paathukonga, timing naraya place la miss pani paadi irukeenga, feel innum kooda kuduthu irukalam, ella chorus part try pani irukeenga good but 2nd join use panni overlap pani irunda innum super ah paadunga Gud luck"
+        },
+        {
+          "name": "Sam",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.3, "rhythm": 9.5, "diction": 8.2, "feel_attitude": 8.1, "o_performance": 8.9, "total": 43.0},
+            {"judge": "J2", "pitch": 8.5, "rhythm": 9.5, "diction": 8.5, "feel_attitude": 8.5, "o_performance": 9.0, "total": 43.5}
+          ],
+          "grand_total": 86.5,
+          "feedback": "Song singing super. Feel, energy nalla irundudu. Second interlude humming beautiful.\nSuggestion: First humming check panninga.\nLovely singing, settings konjam check pananun,landing la concentrate panunga breath control illama landing la error varudhu,fillers laam sila place la miss pani irukeenga anda haa haa breathing portions idu ellam solve pani next round la nalla paadunga ATB"
+        },
+        {
+          "name": "I am breezy",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 7.9, "rhythm": 9.2, "diction": 8.4, "feel_attitude": 8.0, "o_performance": 8.9, "total": 42.4},
+            {"judge": "J2", "pitch": 8.0, "rhythm": 9.2, "diction": 8.5, "feel_attitude": 8.2, "o_performance": 8.7, "total": 42.6}
+          ],
+          "grand_total": 85.0,
+          "feedback": "Good singing, Setting konjam check panitu paadunga, setting sariya illana neenga evvalavu nalla paadunalum clarity kedaikadhu, sila landing sangathies ellam issue iruku, chorus part ellam nalla paaduneenga fine but ARR portion la vara swaram lyrics konjam none\nBeautiful singing. Certain portions sangathi ellam superb\nSuggestions: Second join chorus volume kammi pannalam"
+        }
+      ]
+    },
+    {
+      "image": "IMG_3538.png",
+      "team": "SM RAAGA REBELS",
+      "theme": "NETHAJI J2C",
+      "round": 1,
+      "year": "1985",
+      "team_total": 450.5,
+      "members": [
+        {
+          "name": "Nethaji",
+          "compliance": {"year": "NO", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.1, "rhythm": 9.5, "diction": 9.2, "feel_attitude": 8.3, "o_performance": 9.5, "total": 45.6},
+            {"judge": "J2", "pitch": 9.1, "rhythm": 9.5, "diction": 9.3, "feel_attitude": 8.5, "o_performance": 9.5, "total": 45.9}
+          ],
+          "grand_total": 86.5,
+          "feedback": "Lovely singing. Sorry for yout minus marks ninaivellam nithya movie released year 1992 .sruthi , thalam ellam nalla maintain pani irukeenga but song la vara feel n dynamics missing song romba raw ah iruku konjam nelivu, sulivu vandu irunda innum azaga irundu irukum, diction la konjam concentrate panunga words change pani paadi irukeenga, small small mistakes thaan idu ellam solve panitu next round s la innum super ah paadunga ATB\nSuperb singing. Maintained well throughout.\nSuggestion: Feel and dynamics inum konjam add pannirunda effect aa irukum."
+        },
+        {
+          "name": "Kodeeswaran",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.4, "rhythm": 9.5, "diction": 8.4, "feel_attitude": 8.4, "o_performance": 9.3, "total": 44.0},
+            {"judge": "J2", "pitch": 8.2, "rhythm": 9.5, "diction": 8.5, "feel_attitude": 8.5, "o_performance": 9.2, "total": 43.9}
+          ],
+          "grand_total": 87.9,
+          "feedback": "Nice Singing, diction la konjam concentrate pananum za word ellam la nu paadureenga then degam word thegam nu pronounce panurenga, then song la iruka attitude n dynamics missing , landing la vara sangathies sariya place agala, sila place la sruthi half note flat , idu ellam retify panitu next round nalla paadunga Gud Luck\nGreat attempt. Managed well.\nSuggestion: Humming konjam kude perfection irunda effective aa irukum."
+        },
+        {
+          "name": "Ambigai",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.3, "rhythm": 8.0, "diction": 9.5, "feel_attitude": 8.2, "o_performance": 9.5, "total": 43.5},
+            {"judge": "J2", "pitch": 8.5, "rhythm": 8.5, "diction": 9.5, "feel_attitude": 8.5, "o_performance": 9.0, "total": 44.0}
+          ],
+          "grand_total": 87.5,
+          "feedback": "Good singing, please concentrate on your timing most of the place la thalam half beat vitu paadi irukeenga , feel innum konjam nalla kuduthu irukalam, upcoming rounds la idalam note pani nalla paadunga All the best\nSuperb singing\nSuggestion: Sila edam rhythm thalli paadureenga."
+        },
+        {
+          "name": "Riyana",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.5, "rhythm": 8.5, "diction": 9.5, "feel_attitude": 8.5, "o_performance": 9.0, "total": 45.4},
+            {"judge": "J2", "pitch": 8.4, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.5, "o_performance": 9.5, "total": 45.4}
+          ],
+          "grand_total": 91.1,
+          "feedback": "beautiful Singing, Starting aalappu could be better ,nalla try pani irukeenga but confident illadha madhree feel agudhu, sila place la sruthi slight half note la paadi irukeenga, main issue voice konjam shaky ah iruku appde paadura appo landing and sthuthi la mistake iruka madhree irukum so idu konjam concentrate panitu next round nalla paadunga ATB\nBeautiful singing.\nSuggestion: Confident aa paadalam. Sila edam slight pitch variations iruku, check panikonga. Voice light shaky aa iruku konjam azhuthi paada try panninga. All the Best!"
+        },
+        {
+          "name": "Dev Era",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.0, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.7, "o_performance": 9.0, "total": 45.7},
+            {"judge": "J2", "pitch": 9.1, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.6, "o_performance": 9.5, "total": 46.2}
+          ],
+          "grand_total": 92.5,
+          "feedback": "Excellent singing, singing wise ellam ok but dynamics and feel konjam kooda kuduthu irukalam, interlude la vara lala 2nd time paadura appo voice strain agi iruku ,competion vara appo idu ellam concentrate pani thaana aganum aduvum posting thaana mistake irunda retake pani irukalame , adu ungalukku theane a replicate agum so idalam concentrate pani next round la nalla kudunga ATB\nWonderful singing. Feel nalla cover panirukeenga.\nSuggestion: Second join la padaireepi. Second chorus voice strain teriyudu."
+        }
+      ]
+    },
+    {
+      "image": "IMG_3539.png",
+      "team": "ISAI SARAL",
+      "theme": "TAMILVENDHAN",
+      "round": 1,
+      "year": "1992",
+      "team_total": 422.3,
+      "members": [
+        {
+          "name": "Thamizhventhan",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 6.7, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 6.6, "o_performance": 9.5, "total": 41.8},
+            {"judge": "J2", "pitch": 7.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 7.2, "o_performance": 9.0, "total": 42.7}
+          ],
+          "grand_total": 84.5,
+          "feedback": "Good singing, please concentrate on your sruthi , most of the place la sruthi konjam flat ah paadi irukeenga, song kuduka venidya feel and dynamics miss agi iruku , idalaam note pani next rounds la irundu super ah paadunga ATB\nGood singing.\nSuggestion: Sruthi konjam check pannikonga, neraya edam pitch issues iruku. Song feel konjam add panirunda nalla irukum. Next"
+        },
+        {
+          "name": "Archana",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.8, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.5, "o_performance": 9.5, "total": 45.8},
+            {"judge": "J2", "pitch": 9.1, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.9, "o_performance": 9.3, "total": 46.3}
+          ],
+          "grand_total": 92.1,
+          "feedback": "Excelent singing , sila place la matum sruthi lita vilagi iruku, voice konjam shaky ah iruku adu paathukoonga , landing sila place la sariya place agala otherwise super ah paadi irukeenga, iru ellam notice pani next round la nalla paadunga Gud Luck\nBeautiful singing, feel and expressions.\nSuggestion: Sila edam voice shaky aa iruku adi konjam check panikonga."
+        },
+        {
+          "name": "Aasik",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 7.2, "rhythm": 9.5, "diction": 8.4, "feel_attitude": 7.1, "o_performance": 8.8, "total": 41.0},
+            {"judge": "J2", "pitch": 7.5, "rhythm": 9.5, "diction": 8.7, "feel_attitude": 7.6, "o_performance": 8.6, "total": 41.9}
+          ],
+          "grand_total": 82.9,
+          "feedback": "Nice singing, sruthi la naraya concentrate pananum bro ,most of the place la sruthi searama paadi irukeenga, landing and dynamics paakanum, chorus edum neenga paadala,2nd join option thaan kuduthu irukom adu use pani ella portion cover pananum, next round la irundu idu ellam check panitu super ah paadunga ATB\nGood singing.\nSuggestion: Sruthi konjam check pannikonga, neraya edam pitch issues iruku. Diction konjam check pannikonga zz slang kekudu."
+        },
+        {
+          "name": "Christy",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 7.3, "rhythm": 8.2, "diction": 9.5, "feel_attitude": 7.3, "o_performance": 8.2, "total": 40.5},
+            {"judge": "J2", "pitch": 7.8, "rhythm": 8.5, "diction": 9.5, "feel_attitude": 7.6, "o_performance": 8.0, "total": 41.4}
+          ],
+          "grand_total": 81.9,
+          "feedback": "Lovely singing, first of all setting neenga sariya check pananum song la naraya place la echo varudhu .appde echo vanda ungs singing quality sariya kekuda, please concentrate on your sruthi, thalam, dynamics, idu ellam naraya place shotage ah iruku , chorus edum paadala neenga track la irundalum neenga overlap panunga soli irukom , idu ellam check panitu next rounds la irundu super ah paadunga ATB\nGood singing.\nSuggestion: Unga settings check panikonga, neraya edam echo kekudu so voice and pitch variations kekudu."
+        },
+        {
+          "name": "Luna",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 6.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 6.7, "o_performance": 7.9, "total": 40.1},
+            {"judge": "J2", "pitch": 7.1, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 6.9, "o_performance": 7.8, "total": 40.8}
+          ],
+          "grand_total": 80.9,
+          "feedback": "Good singing, setting neenga check pananum song la naraya place la noise vandu iruku, please concentrate on your sruthi naraya place la sruthi vilagi paadi irukeenga, feel and dynamics missing, chorus la male portion neenga paadave illa , sonna mistakes ellam solve panitu next rounds la irundu super ah paadunga ATB\nGood singing.\nSuggestions: Settings check pannikonga."
+        }
+      ]
+    },
+    {
+      "image": "IMG_3540.png",
+      "team": "SILENT BEATS",
+      "theme": "BUTTERFLY",
+      "round": 1,
+      "year": "1985",
+      "team_total": 450.9,
+      "members": [
+        {
+          "name": "Sha",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 7.3, "rhythm": 9.5, "diction": 8.6, "feel_attitude": 7.2, "o_performance": 9.5, "total": 42.1},
+            {"judge": "J2", "pitch": 7.6, "rhythm": 9.5, "diction": 8.8, "feel_attitude": 7.5, "o_performance": 9.5, "total": 42.9}
+          ],
+          "grand_total": 85.0,
+          "feedback": "Good singing, concentrate on your sruthi naraya place la sruthi serama paadi irukeenga, feel and dynamics sariya illa aduvum paakanum ,diction la sila words sariya pronounce panala, inda mistakes ellam sari pani next rounds la irundu super ah paadunga ATB\nGood singing. Easy aa paadarenga.\nSuggestion: Pitch konjam check panikonga. Song la konjam koda feel and dynamics add pannalam."
+        },
+        {
+          "name": "Butterfly",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 7.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.1, "o_performance": 9.5, "total": 44.1},
+            {"judge": "J2", "pitch": 7.8, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.1, "o_performance": 9.5, "total": 44.4}
+          ],
+          "grand_total": 88.5,
+          "feedback": "Nice singing, please concentrate on your sruthi sila place la half note la paadi irukeenga, feel was good but voice romba huskey ah iruku inda song konjam sharp ah irukum but unga singing appde clear voice la illa sila sila place voice tsrain agi iruku , inda issue ellam sari panitu next rounds la irudnu nalla paadunga ATB\nGood singing and feel.\nSuggestion: Indha song ku voice konjam azhuthi paadalam. Husky aa paadirukenga so feel differ aagudu."
+        },
+        {
+          "name": "SPB Rasigan",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.3, "o_performance": 9.5, "total": 45.3},
+            {"judge": "J2", "pitch": 8.7, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.8, "o_performance": 9.5, "total": 46.0}
+          ],
+          "grand_total": 91.3,
+          "feedback": "Best singing,slight sruthi issue in 2 places, starting la voice fade out achi sila place la aduku appuram manage paniteenga, setting sariya check panikoonga, feel innum konjam kuduthu irukalam, may be setting issue naala thareyala pola so idalam neenga than check pananum , next rounds la irudu idalam check panitu super ah paadunga ATB\nBeautiful singing and feel.\nSuggestion: Base notes konjam check panikonga, base la fade out aagudu. Settings konjam check panikonga."
+        },
+        {
+          "name": "Kalaivani",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.9, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.1, "o_performance": 9.4, "total": 46.4},
+            {"judge": "J2", "pitch": 9.0, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.3, "o_performance": 9.2, "total": 46.5}
+          ],
+          "grand_total": 92.9,
+          "feedback": "Beautiful Singing , slight sruthi issue in some place feel ellam good innum kooda try pani irukalam, voice strain konjam paathukonga, nect rounds la idu ellam check panikonga anda haa haa breathing portions idu ellam solve pani next round la nalla paadunga ATB\nBeautiful singing. Voice throw super, ease oda paadirukenga.\nSuggestions: Sila edam slight pitch slip aagudu please check"
+        },
+        {
+          "name": "Vasan",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.9, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.5, "total": 46.6},
+            {"judge": "J2", "pitch": 8.8, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.3, "o_performance": 9.5, "total": 46.6}
+          ],
+          "grand_total": 93.2,
+          "feedback": "Excellent singing, singing wise ellam ok but dynamics and feel konjam kooda kuduthu irukalam, interlude la vara lala 2nd time paadura appo voice strain agi iruku ,competion vara appo idu ellam concentrate pani thaana aganum aduvum posting thaana mistake irunda retake pani irukalame , adu ungalukku thaane a replicate agum so idalam concentrate pani next rounds la nalla kudunga ATB\nWonderful rendition and feel.\nSuggestion: Sila edam slight pitch matum slight differ ayiluruku."
+        }
+      ]
+    },
+    {
+      "image": "IMG_3541.png",
+      "team": "THE BEATLES",
+      "theme": "AAROHI",
+      "round": 1,
+      "year": "2003",
+      "team_total": 464.0,
+      "members": [
+        {
+          "name": "Ash ibru",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.5, "rhythm": 9.5, "diction": 9.3, "feel_attitude": 9.4, "o_performance": 9.3, "total": 47.0},
+            {"judge": "J2", "pitch": 9.5, "rhythm": 9.3, "diction": 9.4, "feel_attitude": 9.7, "o_performance": 9.3, "total": 47.2}
+          ],
+          "grand_total": 94.2,
+          "feedback": "Excellent Singing, Overall azaga paadi irukeenga concentrate on your diction charanam la maraindhudhume ku neenga marandudidume and 2nd charanam valamdidume word fulla pronounce panala,then chorus part paadi irukeenga fine but 2nd join use pani choru paart overlap pani irund innum nall a irukum , idu ellam note pano nect rounds la irundu super ah paadunga ATB\nWonderful rendition. Chorus portions effective. Feel. attitude excellent.\nSuggestions:"
+        },
+        {
+          "name": "Nithi",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.7, "rhythm": 9.5, "diction": 9.2, "feel_attitude": 9.1, "o_performance": 9.5, "total": 46.0},
+            {"judge": "J2", "pitch": 8.9, "rhythm": 9.5, "diction": 9.1, "feel_attitude": 9.3, "o_performance": 9.5, "total": 46.3}
+          ],
+          "grand_total": 92.3,
+          "feedback": "Lovely singing, landing oru sila place la drang agi iruku , anda drag aana place sruthi vilagi paadi irukeenga, diction words maathi paadi irukeenga small small mistake nect round la idu ellam note panitu clear ah paadunga Gud Luck\nExcellent Singing. Ease singing, feel and throw as superb.\nSuggestion: Diction and pronounciation konjam check panikonga. Best wishes for next round."
+        },
+        {
+          "name": "Samee",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.5, "rhythm": 9.5, "diction": 9.2, "feel_attitude": 9.2, "o_performance": 9.5, "total": 46.9},
+            {"judge": "J2", "pitch": 9.5, "rhythm": 9.5, "diction": 9.0, "feel_attitude": 9.4, "o_performance": 9.5, "total": 46.9}
+          ],
+          "grand_total": 93.8,
+          "feedback": "Excellent Singing, just concentrate on your dicton some words are pronouncing in a different way , then chorus part ellam 2nd join use pani overlap pana innum nalla irukum , next round la irudu idu ellam note pani super ah paadunga ATB\nLovely Singing. Feel. and expressions beautiful.\nSuggestion: Diction and expressions konjam check pannikalam."
+        },
+        {
+          "name": "Jimcrow",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.7, "rhythm": 9.5, "diction": 8.6, "feel_attitude": 8.7, "o_performance": 9.5, "total": 45.0},
+            {"judge": "J2", "pitch": 8.8, "rhythm": 9.5, "diction": 8.7, "feel_attitude": 9.2, "o_performance": 9.3, "total": 45.5}
+          ],
+          "grand_total": 90.5,
+          "feedback": "Nice singing, concentrate on your word pronouncation is little different, and feel could be better voice sila place la shaky ah iruku, 2nd charanam start la oru hum vandu start agum anda humm panala idu ellam note pani clear ah paadunga super ah paadunga Gud luck\nSuperb singing.\nSuggestion: Diction, pronounciation check panikonga."
+        },
+        {
+          "name": "Aarohi",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.2, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.9, "o_performance": 9.5, "total": 46.6},
+            {"judge": "J2", "pitch": 9.1, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.3, "o_performance": 9.2, "total": 46.6}
+          ],
+          "grand_total": 93.2,
+          "feedback": "Good Singing, Feel innum konjam concentrate pananum high note pogura appo voice romga shout pani paadurenga adu konjam odd ah iruku , chorus paadi irukeenga but 2nd join use pani overlap pana innum nalla irukum, nect round la idu ellam clear ah paadunga ATB\nExcellent Singing. Sustains, throw ease singing.\nSuggestions:"
+        }
+      ]
+    },
+    {
+      "image": "IMG_3542.png",
+      "team": "DIAMOND CREW",
+      "theme": "RESHMI",
+      "round": 1,
+      "year": "1992",
+      "team_total": 424.9,
+      "members": [
+        {
+          "name": "Reshmi",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 6.3, "rhythm": 8.2, "diction": 9.5, "feel_attitude": 6.8, "o_performance": 8.9, "total": 39.7},
+            {"judge": "J2", "pitch": 6.8, "rhythm": 8.5, "diction": 9.5, "feel_attitude": 7.1, "o_performance": 8.8, "total": 40.7}
+          ],
+          "grand_total": 80.4,
+          "feedback": "Good singing, Neenga unga sruthi la naraya concentrate pananum ,many place la flat ah paadi irukeenga timing kooda lag , feel pathala song la situation paathu aduku eatha madhree paadanum , song la vara oru male humming kaanom , idu ellam clear panitu nect rounds la irundu super ah paadunga ATB\nGood singing and efforts.\nSuggestions: Unga Pitch konjam concentrate panunga. Most places singing flat aa iruku and beats miss agudu. Feel, Dynamics"
+        },
+        {
+          "name": "Misty Queen",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 7.4, "rhythm": 9.0, "diction": 9.5, "feel_attitude": 7.5, "o_performance": 9.1, "total": 42.5},
+            {"judge": "J2", "pitch": 7.8, "rhythm": 9.0, "diction": 9.5, "feel_attitude": 7.6, "o_performance": 9.0, "total": 42.9}
+          ],
+          "grand_total": 85.4,
+          "feedback": "Nice singing, Unga setting check pananum adula mistake irunda unga song neenga evvalavu nalla paadunalum output sariya kekadhu ,idula sila place sruthi flat ah paadi irukeenga, high range pora place la voice reach agala, feel and dynamics konjam paakanum , nect round la irundu idu ellam check panitu super ah paadunga Gud luck\nGood singing and attempt.\nSuggestion: Unga song track, settings kandipa check panikonga. Voice quality different aa kekudu."
+        },
+        {
+          "name": "Mani",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 7.9, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.1, "o_performance": 8.5, "total": 43.5},
+            {"judge": "J2", "pitch": 8.0, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.5, "o_performance": 9.0, "total": 44.5}
+          ],
+          "grand_total": 88.0,
+          "feedback": "Lovely singing concentrate on sruthi naraya place la voice romba shake ah iruku sila place la crack ah iruku voice , landing and feel kooda missing chorus ellam paadi irukeenga good , nect round la idu ellam note panitu avoide panitu super ah paadunga ATB\nSuper singing and feel.\nSuggestion: Music konjam kammi panirukalam. Voice konjam suppress agudu."
+        },
+        {
+          "name": "Thalapathy Sai",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 7.1, "rhythm": 9.5, "diction": 9.1, "feel_attitude": 7.2, "o_performance": 8.8, "total": 41.7},
+            {"judge": "J2", "pitch": 7.5, "rhythm": 9.5, "diction": 9.2, "feel_attitude": 7.8, "o_performance": 8.5, "total": 42.5}
+          ],
+          "grand_total": 84.2,
+          "feedback": "Nice singing, Song neenga than choose pandrenga so track ah clear ah choose pana veniyadhu unga poruppu track sariya illana unga singing quality eppadi judge pana mudeyum , track la beat sariya kekala adnala voice sariya output varala, naraya place la sruthi vilagi paadi irukeenga feel and attitude missing , nect round idu ellam check panitu super ah paadunga ATB\nGood singing and attempt.\nSuggestion: Unga track konjam check pannikonga. Settings. Chorus idellam pannikonga neenga. Track nala unga perfomance"
+        },
+        {
+          "name": "Nila",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 7.8, "rhythm": 9.5, "diction": 8.7, "feel_attitude": 7.9, "o_performance": 9.5, "total": 43.4},
+            {"judge": "J2", "pitch": 7.8, "rhythm": 9.5, "diction": 9.0, "feel_attitude": 8.2, "o_performance": 9.0, "total": 43.5}
+          ],
+          "grand_total": 86.9,
+          "feedback": "Good singing, sruthi la konjam concentrate pananum naraya place la konjam flat ah paadi irukeenga, feel n dynamics miss agi iruku, diction narana place la za word varala adu konjam paathukonga, next rounds la irundu idu ellam note pani super ah paadunga ATB\nSuper singing and feel nalla varudu.\nSuggestion: Pitch konjam check panikonga."
+        }
+      ]
+    },
+    {
+      "image": "IMG_3543.png",
+      "team": "MBA GOLDEN CHORDS",
+      "theme": "FAIRY FRESH",
+      "round": 1,
+      "year": "1980",
+      "team_total": 449.3,
+      "members": [
+        {
+          "name": "Rajathi Raja",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.0, "rhythm": 9.5, "diction": 9.0, "feel_attitude": 8.0, "o_performance": 8.8, "total": 43.3},
+            {"judge": "J2", "pitch": 8.5, "rhythm": 9.5, "diction": 9.0, "feel_attitude": 8.5, "o_performance": 9.0, "total": 44.5}
+          ],
+          "grand_total": 87.8,
+          "feedback": "Lovely sining, Sruthi konjam paakanum sila place la flat ah paadi irukeenga, inga song oru jolly ah paadura song anda josh illa dynamins missing, lalala portion thappa paadi irukenga , sona mistake ellam solve panitu nect round la irndu super ah paadunga ATB\nSuperb singing.\nSuggestion: Konjam energy, attitude add panirunda inum effective aa irundirukum."
+        },
+        {
+          "name": "Pavithra",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.4, "rhythm": 9.0, "diction": 9.5, "feel_attitude": 8.5, "o_performance": 9.5, "total": 44.9},
+            {"judge": "J2", "pitch": 8.8, "rhythm": 8.8, "diction": 9.2, "feel_attitude": 8.8, "o_performance": 9.2, "total": 44.8}
+          ],
+          "grand_total": 89.7,
+          "feedback": "Nice singing, feel konjam kooda try pani irukalam , some of the places timing lag ah paadi irukeenga , sila place la sruthi vilagi iruku ,\nSuper singing and song choice nalla iruku.\nSuggestion: First dialogues vara pola track la edhuthirukalam"
+        },
+        {
+          "name": "Fairy Fresh",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.7, "rhythm": 9.3, "diction": 9.5, "feel_attitude": 8.5, "o_performance": 8.9, "total": 44.9},
+            {"judge": "J2", "pitch": 8.8, "rhythm": 8.5, "diction": 9.5, "feel_attitude": 9.0, "o_performance": 9.0, "total": 44.8}
+          ],
+          "grand_total": 89.7,
+          "feedback": "Good Singing, Track unga choice thaana inda madhree track edtha unga singing quality sariya thareyadhu , beat fulla ah wrong ah iruku track la adanala unga timing lag in many place , landing naraya place sariya illa, nect time idu ellam solve panitu nalla paadunga ATB\nGood singing and attempt.\nSuggestion: Song track konjam check pannikonga. Idunala unga singing quality affect aagudu."
+        },
+        {
+          "name": "Sulaiman",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.2, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.3, "o_performance": 9.5, "total": 47.0},
+            {"judge": "J2", "pitch": 9.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.3, "o_performance": 9.5, "total": 47.3}
+          ],
+          "grand_total": 94.3,
+          "feedback": "Excellent Singing, ellame romba azaga pani irukeenga, innum konam dynamics and attitude kuduthu irunda semmaya irundu irukum, next time expecting more ATB\nWonderful singing. Song la ellam nalla iruku. Clean performance. All the best for further rounds!"
+        },
+        {
+          "name": "Farnaz",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 7.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 7.5, "o_performance": 9.5, "total": 43.5},
+            {"judge": "J2", "pitch": 8.0, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 7.8, "o_performance": 9.5, "total": 44.3}
+          ],
+          "grand_total": 87.8,
+          "feedback": "Nice singing, Palilavi azaga start panitu both the charanam la sruthi out of pitch la paadi irukeenga,attitude of the song LR amma oda anda huskey varala ,hope nect rounds la idu ellam change panitu super ah paaduveenga . ATB\nSuperb singing. Start romba nalla irundidu.\nSuggestion: Konjam kuda attitude add panirunda nalla irukum."
+        }
+      ]
+    },
+    {
+      "image": "IMG_3544.png",
+      "team": "INNISAI MAZHAI",
+      "theme": "INNISAI",
+      "round": 1,
+      "year": "1990",
+      "team_total": 454.8,
+      "members": [
+        {
+          "name": "Anbu Star",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.0, "rhythm": 9.0, "diction": 9.5, "feel_attitude": 8.0, "o_performance": 8.6, "total": 43.1},
+            {"judge": "J2", "pitch": 8.2, "rhythm": 8.8, "diction": 9.5, "feel_attitude": 8.8, "o_performance": 8.8, "total": 44.1}
+          ],
+          "grand_total": 87.2,
+          "feedback": "Lovely singing , main problem chorus edume neenga paadala why? 2nd join option use pani paadi irukalame, sila place la sruthi slight ah vilagi irunduchi, timing koooda lag, attitude of the of innum konjam kooda try pani irukalam words ellam konjam dragy ah irunduchi, sona mistake ellam note panitu next round la super ah paadunga ATB\nSuperb singing and attitude.\nSuggestion: Chorus cover pannale, ungaluku 2nd join option iruku use panirukalam"
+        },
+        {
+          "name": "Heart Beat",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.3, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.5, "total": 47.0},
+            {"judge": "J2", "pitch": 9.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.5, "o_performance": 9.5, "total": 47.5}
+          ],
+          "grand_total": 94.5,
+          "feedback": "Beautiful singing, attham sariya paadi irukeenga but inda landing sila place la sariya place agala adu because neenga duet song single join la paadi irukeenga adu thaan reason. naanga 2nd join option kuduthu irukoom adu use pani paadi irunda innum super ah irudndu irukum next round la innum expect pandrom ATB\nWonderful Singing. Dynamics, feel ellam nalla cover panirukeenga. Ease singing and vibratos azhaga iruku.\nSuggestion: Duet song nala duet mode la song invite potu second portions second join la panirukalam"
+        },
+        {
+          "name": "Sindhu",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.6, "rhythm": 9.5, "diction": 9.3, "feel_attitude": 8.7, "o_performance": 8.5, "total": 44.6},
+            {"judge": "J2", "pitch": 8.9, "rhythm": 9.5, "diction": 9.2, "feel_attitude": 8.8, "o_performance": 8.5, "total": 44.9}
+          ],
+          "grand_total": 89.5,
+          "feedback": "Good singing , Unga setting check pananum song la naraya background chorus varum adu edum try panala 2nd join option use pani adu add pani irunda nalla irukum , inda mistake ellam sari pani next round super ah paadunga ATB\nSuperb singing.\nSuggestion: Unga settings check pannikonga."
+        },
+        {
+          "name": "Jai",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.8, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.8, "o_performance": 9.5, "total": 46.1},
+            {"judge": "J2", "pitch": 9.0, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.8, "o_performance": 9.2, "total": 46.0}
+          ],
+          "grand_total": 92.1,
+          "feedback": "Nice singing, ellam sariya paadi irukenga feel and dynamics konjam paakanum, landing la vara sangathies sariya vizala aduku enna reason na unga setting, song edo clear ah illadha madhree iruku echo check pani save panunga, sligh ah sruthi vilagai in some place matha padi ellam gud , next time setting check pani save panunga ATB\nSuperb singing.\nSuggestion: Settings konjam check pannikonga. Unga singing quality settings nala effect aagudu."
+        },
+        {
+          "name": "Mano Manu",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.7, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.7, "o_performance": 9.5, "total": 45.9},
+            {"judge": "J2", "pitch": 9.0, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.5, "o_performance": 9.1, "total": 45.6}
+          ],
+          "grand_total": 91.5,
+          "feedback": "Lovely Singing, 2nd charanam la sila sruthi konjam flat ah irunduchi, landing ellam konjam sariya place agala, sangathis konjam paakanum, setting check pananum music and voice match agala, music low ah iruku next round la idu ellam correct panitu nalla paadunga Gud Luck\nSuperb singing.\nSuggestion: Landings konjam check pannikonga."
+        }
+      ]
+    }
+  ]
+}
