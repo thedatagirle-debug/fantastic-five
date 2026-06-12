@@ -41,6 +41,24 @@ gate()
 members, teams = M.load()
 INSIGHTS = M.load_insights()        # LLM-decoded positives/negatives per singer-round
 standings = M.team_standings(teams)
+
+
+def show_recurring(team, member, kind="both"):
+    """Render cross-round recurring strengths/issues for a singer (needs >=2 rounds)."""
+    rec = M.recurring(INSIGHTS, team, member)
+    n = rec["rounds"]
+    if n < 2:
+        return
+    if kind in ("both", "strength") and rec["praise_criteria"]:
+        items = ", ".join(f"{c} ({v}/{n} rounds)" for c, v in rec["praise_criteria"])
+        st.markdown(f"🔁 **Consistently praised for:** {items}")
+    if kind in ("both", "issue"):
+        if rec["issue_criteria"]:
+            items = ", ".join(f"{c} ({v}/{n} rounds)" for c, v in rec["issue_criteria"])
+            st.markdown(f"🔁 **Recurring issue:** {items} — a pattern, not a one-off.")
+        if rec["issue_themes"]:
+            items = ", ".join(f"{t} ({v}×)" for t, v in rec["issue_themes"])
+            st.markdown(f"🔁 **Repeatedly flagged:** {items}")
 round_cols = [c for c in standings.columns if c.startswith("R") and c[1:].isdigit()]
 all_rounds = sorted(int(c[1:]) for c in round_cols)
 
@@ -167,6 +185,7 @@ with tabs[1]:
                         st.markdown("**⚠️ To improve:** " + " · ".join(ins["negatives"]))
                     if ins.get("focus"):
                         st.caption("Focus criteria: " + ", ".join(ins["focus"]))
+                    show_recurring(team, r["member"])      # cross-round patterns
                     with st.popover("Raw Tanglish feedback"):
                         st.write(r["feedback"] or "_none_")
                 else:
@@ -293,6 +312,7 @@ with tabs[3]:
             rank_txt = f", ranks #{field_rank}/{len(mc)} among all singers on it" if field_rank else ""
             head = f"**{row['member']}** (avg {row['avg_grand']:.1f}) → improve **{wlabel}** ({wscore:.2f}{rank_txt})"
             with st.expander(head, expanded=False):
+                show_recurring(M.MY_TEAM, row["member"])    # recurring patterns first — top priority
                 if ins["negatives"]:
                     st.markdown(f"**⚠️ Judges want fixed:** {' · '.join(ins['negatives'])}")
                 if ins["focus"]:
@@ -396,6 +416,7 @@ with tabs[4]:
                 st.markdown(f"**⚠️ Their weaknesses (out-sing them here):** {' · '.join(ins['negatives'])}")
             if ins["focus"]:
                 st.markdown(f"**Exploit criteria:** {', '.join(ins['focus'])}.")
+            show_recurring(rival, r0["member"])      # what consistently helps/hurts them
             fbrows = rmem[rmem["member"] == r0["member"]].sort_values("round")
             with st.popover("Show raw judge feedback"):
                 for _, fr in fbrows.iterrows():
@@ -422,6 +443,7 @@ with tabs[4]:
                     st.markdown(f"**⚠️ Where they're vulnerable (press here):** {' · '.join(ins['negatives'])}")
                 if ins["focus"]:
                     st.markdown(f"**Exploit criteria:** {', '.join(ins['focus'])}.")
+                show_recurring(rival, w0["member"], "issue")    # repeated weaknesses to target
                 if ins["positives"]:
                     st.caption(f"(They're still decent at: {' · '.join(ins['positives'])} — don't underestimate.)")
                 if not ins["negatives"] and not ins["focus"]:

@@ -274,6 +274,48 @@ def member_insight(insights, team, member, round=None):
     return {"positives": pos, "negatives": neg, "focus": foc}
 
 
+def _phrase_to_criterion(phrase):
+    low = (phrase or "").lower()
+    for kw, crit in _FB_CRIT.items():
+        if kw in low:
+            return CRITERIA_LABELS[crit]
+    return None
+
+
+# specific recurring issue themes (beyond the 5 criteria) to track across rounds
+_THEMES = {
+    "sing in duet/join": ["duet", "single join", "double join", "split lyrics"],
+    "landings cut short": ["landing"],
+    "high notes": ["high note", "high notes"],
+    "voice strain/compression": ["strain", "compress", "crack"],
+    "humming/breath": ["humming", "breath"],
+    "fillers/sangathi": ["filler", "sangathi"],
+}
+
+
+def recurring(insights, team, member):
+    """Detect criteria/themes that repeat across a singer's rounds.
+    Returns counts out of rounds_seen for praise-criteria, issue-criteria and issue-themes
+    (only those appearing in >= 2 rounds)."""
+    from collections import Counter
+    rounds = {r: it for (t, r, m), it in insights.items() if t == team and m == member}
+    n = len(rounds)
+    praise_c, issue_c, theme_c = Counter(), Counter(), Counter()
+    for it in rounds.values():
+        for f in set(it.get("focus", [])):                       # standardized weakness criteria
+            issue_c[f] += 1
+        pc = {c for p in it.get("positives", []) if (c := _phrase_to_criterion(p))}
+        for c in pc:                                             # praise mapped to criteria
+            praise_c[c] += 1
+        negtext = " ".join(it.get("negatives", [])).lower()
+        for theme, kws in _THEMES.items():
+            if any(k in negtext for k in kws):
+                theme_c[theme] += 1
+    rec = lambda c: sorted([(k, v) for k, v in c.items() if v >= 2], key=lambda x: -x[1])
+    return {"rounds": n, "praise_criteria": rec(praise_c),
+            "issue_criteria": rec(issue_c), "issue_themes": rec(theme_c)}
+
+
 def potential_table(teams, members):
     """Potential = where a team is trending + how high its ceiling is + member depth.
     Blends current average, upward trajectory, best-round ceiling and roster balance."""
