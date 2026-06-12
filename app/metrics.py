@@ -237,6 +237,43 @@ def feedback_insights(text):
     return {"praise": praise, "suggestion": suggestion[:400], "focus": focus}
 
 
+def load_insights():
+    """LLM-decoded judge feedback: dict[(team, round, member)] -> {positives, negatives, focus}.
+    Produced offline by analyze_feedback.py; empty dict if not present (app degrades gracefully)."""
+    import json
+    path = os.path.join(DATA_DIR, "insights.json")
+    if not os.path.exists(path):
+        return {}
+    out = {}
+    for it in json.load(open(path)):
+        try:
+            out[(it["team"], int(it["round"]), it["member"])] = it
+        except (KeyError, ValueError, TypeError):
+            continue
+    return out
+
+
+def member_insight(insights, team, member, round=None):
+    """Aggregate decoded positives/negatives/focus for a singer across rounds
+    (or a single round if given), de-duplicated in first-seen order."""
+    pos, neg, foc = [], [], []
+    for (t, r, m), it in insights.items():
+        if t != team or m != member:
+            continue
+        if round is not None and r != round:
+            continue
+        for p in it.get("positives", []):
+            if p not in pos:
+                pos.append(p)
+        for n in it.get("negatives", []):
+            if n not in neg:
+                neg.append(n)
+        for f in it.get("focus", []):
+            if f not in foc:
+                foc.append(f)
+    return {"positives": pos, "negatives": neg, "focus": foc}
+
+
 def potential_table(teams, members):
     """Potential = where a team is trending + how high its ceiling is + member depth.
     Blends current average, upward trajectory, best-round ceiling and roster balance."""

@@ -1,0 +1,410 @@
+[
+  {
+    "team": "DIAMOND CREW",
+    "round": 3,
+    "member": "Nila",
+    "positives": ["good singing", "beautiful rendition", "good feel"],
+    "negatives": ["chorus not covered", "needs more energy, sing open", "Charanam 2 low volume", "slight pitch off in places", "add more dynamics", "some landing errors"],
+    "focus": ["Pitch", "Feel/Attitude", "Overall Perf."]
+  },
+  {
+    "team": "THE BEATLES",
+    "round": 3,
+    "member": "Meera MS",
+    "positives": ["lovely singing", "good feel and dynamics", "excellent singing", "cute singing, beautiful places"],
+    "negatives": ["husky tone missing", "try base voice", "diction check (idazhil/idalil)", "Aanavaan line slightly flat"],
+    "focus": ["Diction", "Pitch", "Feel/Attitude"]
+  },
+  {
+    "team": "THE BEATLES",
+    "round": 3,
+    "member": "Ashbru",
+    "positives": ["excellent singing", "clear singing", "super feel and dynamics", "pure rendition"],
+    "negatives": ["pronunciation off (polyai, meiyal, alandhen)"],
+    "focus": ["Diction"]
+  },
+  {
+    "team": "THE BEATLES",
+    "round": 3,
+    "member": "Samee",
+    "positives": ["excellent singing", "beautiful vibratos and sangathis", "perfect humming and variations", "nice singing"],
+    "negatives": ["diction issue (deepali, aathiram, avalukidhai)"],
+    "focus": ["Diction"]
+  },
+  {
+    "team": "THE BEATLES",
+    "round": 3,
+    "member": "Jimcrow",
+    "positives": ["beautiful singing", "beautiful chorus", "good 2nd humming"],
+    "negatives": ["diction errors (Gengai, avasara, thaamarai, sandhi)", "different sustains", "some words wrong (bogan villa)", "C2 female counterpart missing", "not all chorus covered", "2nd Charanam female counters not attempted"],
+    "focus": ["Diction", "Overall Perf."]
+  },
+  {
+    "team": "THE BEATLES",
+    "round": 3,
+    "member": "Aarohi",
+    "positives": ["good singing", "beautiful voice", "beautiful chorus", "high notes sung easily", "wonderful"],
+    "negatives": ["need more feel", "sounded like shouting", "music low, voice dominating (setting)", "2 doubtful pitch places"],
+    "focus": ["Feel/Attitude", "Overall Perf.", "Pitch"]
+  },
+  {
+    "team": "SM RAAGA REBELS",
+    "round": 3,
+    "member": "Nethaji",
+    "positives": ["excellent singing", "soothing performance", "brilliant rendition"],
+    "negatives": ["check dynamics (nelivu sulivu missing)", "practice breath control", "gaps in landing sustains"],
+    "focus": ["Feel/Attitude", "Overall Perf."]
+  },
+  {
+    "team": "SM RAAGA REBELS",
+    "round": 3,
+    "member": "Kodeeswaran",
+    "positives": ["beautiful singing", "good throughout", "good singing of a hard song"],
+    "negatives": ["add throw and feel", "choose more suitable song", "many chorus and fillers missed", "need more attitude", "some lines flat"],
+    "focus": ["Feel/Attitude", "Overall Perf.", "Pitch"]
+  },
+  {
+    "team": "SM RAAGA REBELS",
+    "round": 3,
+    "member": "Indrani",
+    "positives": ["good singing", "nice singing"],
+    "negatives": ["need more energy, feel, attitude", "many fillers/counters missed", "some places flat", "husky voice missing", "pitch flat (esp C1, C2)", "feel of song missing, sang plain", "landing issues"],
+    "focus": ["Feel/Attitude", "Pitch", "Overall Perf."]
+  },
+  {
+    "team": "SM RAAGA REBELS",
+    "round": 3,
+    "member": "Riyana",
+    "positives": ["beautiful singing", "beautiful portions", "super singing"],
+    "negatives": ["add more depth, feel, dynamics", "some places flat (Veetliaye, Thoonginal podu)", "sad-song feel missing", "diction (pournami/bournami, payanam/bayanam)"],
+    "focus": ["Feel/Attitude", "Pitch", "Diction"]
+  },
+  {
+    "team": "SM RAAGA REBELS",
+    "round": 3,
+    "member": "Dev Era",
+    "positives": ["beautiful singing", "beautiful high notes", "easy high notes", "wonderful throughout"],
+    "negatives": ["Charanam 2 some places flat", "lead high range sung normal", "attitude missing", "backvocal/counterpart missing", "slogan repeated wrongly", "song not completed fully", "chorus needs double join"],
+    "focus": ["Pitch", "Feel/Attitude", "Overall Perf."]
+  },
+  {
+    "team": "MYSTIC VOICES",
+    "round": 3,
+    "member": "Archu",
+    "positives": ["lovely singing", "beautiful feel", "beautiful portions"],
+    "negatives": ["add dynamics", "some pronunciation different", "lead chorus part missed in 2nd join", "mild pitch flat in places", "open throat more (Vinnulu Vandadhu flat)"],
+    "focus": ["Feel/Attitude", "Diction", "Overall Perf.", "Pitch"]
+  },
+  {
+    "team": "MYSTIC VOICES",
+    "round": 3,
+    "member": "JHON MARVEL",
+    "positives": ["super singing", "good feel", "nice starting dialogue", "last Haiyoo beautiful"],
+    "negatives": ["slight pitch and landing issue", "timing lag at start", "add dynamics", "overlaps caused rhythm shift (Entrotrathil, Nee Vazhavendum)"],
+    "focus": ["Pitch", "Rhythm", "Feel/Attitude"]
+  },
+  {
+    "team": "MYSTIC VOICES",
+    "round": 3,
+    "member": "Soundariya",
+    "positives": ["beautiful singing", "lovely soothing vocal", "good chorus", "beautiful voice and feel"],
+    "negatives": ["high notes slightly flat (megangal, Ullathai, Ullangai)", "concentrate on pronunciation", "Pallavi rhythm lags", "lines plain (Nenjukkul nee)", "sustain throws rhythm off"],
+    "focus": ["Pitch", "Diction", "Rhythm"]
+  },
+  {
+    "team": "MYSTIC VOICES",
+    "round": 3,
+    "member": "Sam",
+    "positives": ["nice singing", "beautiful singing", "beautiful portions"],
+    "negatives": ["concentrate on pitch, several flat places", "check slang (zz)", "sing softer", "lines flat (Aashirvadam, Tholainda kaladi, mugavari)"],
+    "focus": ["Pitch", "Diction", "Overall Perf."]
+  },
+  {
+    "team": "MYSTIC VOICES",
+    "round": 3,
+    "member": "I am breezy",
+    "positives": ["good singing", "beautiful singing", "super range and voice"],
+    "negatives": ["add more feel", "slight flat notes", "voice too sharp, check setting", "pitch flat (Kittavarathayangade, vittu vittu, Mutti thalla)"],
+    "focus": ["Feel/Attitude", "Pitch", "Overall Perf."]
+  },
+  {
+    "team": "DORAVIN PAYANANGAL",
+    "round": 3,
+    "member": "Bommu",
+    "positives": ["beautiful singing", "lovely soothing vocal", "good chorus", "super voice match and feel"],
+    "negatives": ["high notes slightly flat (megangal, Ullathai)", "concentrate on pronunciation", "some lines sharp (Mazhai Mudichu, Udainthu vittal, Ulagai pole)"],
+    "focus": ["Pitch", "Diction"]
+  },
+  {
+    "team": "DORAVIN PAYANANGAL",
+    "round": 3,
+    "member": "Sugivar man",
+    "positives": ["wonderful singing", "pure and perfect rendition", "excellent singing"],
+    "negatives": [],
+    "focus": []
+  },
+  {
+    "team": "DORAVIN PAYANANGAL",
+    "round": 3,
+    "member": "Krishna",
+    "positives": ["lovely singing", "beautiful voice", "good feel", "beautiful chorus portions"],
+    "negatives": ["setting issue (high voice, low music)", "C2 line endings different, slight flat", "high notes not reached", "female chorus not sung", "Pallavi sung too light/stopping", "landings flat/different"],
+    "focus": ["Overall Perf.", "Pitch"]
+  },
+  {
+    "team": "DORAVIN PAYANANGAL",
+    "round": 3,
+    "member": "Rithu Prabhu",
+    "positives": ["good singing", "good chorus", "good pitch", "beautiful range and high notes", "clean singing"],
+    "negatives": ["sustain in Pallavi not sung right", "C1/C2 high flat", "try Hari ji sangathis"],
+    "focus": ["Pitch", "Overall Perf."]
+  },
+  {
+    "team": "DORAVIN PAYANANGAL",
+    "round": 3,
+    "member": "Aparnaravi",
+    "positives": ["nice singing", "beautiful singing"],
+    "negatives": ["setting issue (low voice, high music)", "C1 line flat (thaai vayathil)", "landing not clean, dragged", "add more dynamics", "background humming missed", "landing sangathis not completed", "alaap not clean", "small fillers missed", "2nd BGM chorus not covered"],
+    "focus": ["Overall Perf.", "Pitch", "Feel/Attitude"]
+  },
+  {
+    "team": "ISAI SARAL",
+    "round": 3,
+    "member": "Thamizhventhan",
+    "positives": ["good singing", "good start", "beautiful singing", "great improvement", "Mullai Malare lines beautiful"],
+    "negatives": ["many pitch problems", "listen to song and practice", "many lines flat", "add more feel and depth"],
+    "focus": ["Pitch", "Feel/Attitude"]
+  },
+  {
+    "team": "ISAI SARAL",
+    "round": 3,
+    "member": "Archana",
+    "positives": ["brilliant singing", "very impressive humming in C1", "perfect rendition", "excellent singing", "beautiful Pallavi", "beautiful sangathi", "clean singing"],
+    "negatives": ["missed starting manthram", "Charanam 1 line light/flat (Kaathalukku)"],
+    "focus": ["Overall Perf.", "Pitch"]
+  },
+  {
+    "team": "ISAI SARAL",
+    "round": 3,
+    "member": "Luna",
+    "positives": ["nice singing", "good singing", "last line beautiful"],
+    "negatives": ["check settings, song not suited to voice", "chorus not sung at all", "first sustain wrong", "add more feel and dynamics", "male humming not covered", "many portions flat (Mounama, Vedama, Paadhi Jeevan, Poove ennai)"],
+    "focus": ["Overall Perf.", "Feel/Attitude", "Pitch"]
+  },
+  {
+    "team": "ISAI SARAL",
+    "round": 3,
+    "member": "Christy",
+    "positives": ["nice singing", "good singing"],
+    "negatives": ["concentrate on pitch, many places flat", "check landings", "practice more", "chorus not covered", "noisy settings/disturbances", "add more feel and depth", "avoid huskiness"],
+    "focus": ["Pitch", "Overall Perf.", "Feel/Attitude"]
+  },
+  {
+    "team": "ISAI SARAL",
+    "round": 3,
+    "member": "Aman",
+    "positives": ["super singing", "good singing"],
+    "negatives": ["concentrate on timing, sang in half beat", "many flat lines", "check settings", "rhythm issues", "some places plain", "add feel and dynamics", "high notes not reached"],
+    "focus": ["Rhythm", "Pitch", "Feel/Attitude", "Overall Perf."]
+  },
+  {
+    "team": "TUNEXA",
+    "round": 3,
+    "member": "Avanthika",
+    "positives": ["good singing", "great improvement", "beautiful singing"],
+    "negatives": ["some pitch issues (C1 udhirattume, C2 Una alaigal)", "concentrate on feel and landing", "voice strained", "landings need clarity", "add more depth", "vibratos missing", "cover chorus with 2 joins"],
+    "focus": ["Pitch", "Feel/Attitude", "Overall Perf."]
+  },
+  {
+    "team": "TUNEXA",
+    "round": 3,
+    "member": "Savanakarpagam",
+    "positives": ["super singing", "excellent singing", "good chorus", "beautiful lines", "super Paati voice modulation"],
+    "negatives": ["gaps in at-a-stretch line", "chorus needs double join", "last part dynamics missing", "some places dragged (Vanamthaa, aativaikum)", "check Thalaiyal koyya line", "Paati voice gap to check"],
+    "focus": ["Rhythm", "Feel/Attitude", "Overall Perf."]
+  },
+  {
+    "team": "TUNEXA",
+    "round": 3,
+    "member": "Tamil Ilakkiya",
+    "positives": ["lovely singing", "good overall management", "beautiful singing", "nice BGM fillers", "good rendition"],
+    "negatives": ["pitch flat in Charanams", "concentrate on feel and dynamics", "high lines very flat", "split song into 2 joins", "sing softer"],
+    "focus": ["Pitch", "Feel/Attitude", "Overall Perf."]
+  },
+  {
+    "team": "TUNEXA",
+    "round": 3,
+    "member": "Rambo",
+    "positives": ["excellent singing", "lovely modulation", "nicely managed", "good Udit imitation", "superb singing"],
+    "negatives": ["C2 nimid line flat", "too husky in C2", "pitch flat (Ivalai partha, Ennanadho, Kavithai ondru, Unakkul kalanthu)", "chorus not covered in one place"],
+    "focus": ["Pitch", "Overall Perf."]
+  },
+  {
+    "team": "TUNEXA",
+    "round": 3,
+    "member": "Vishwa",
+    "positives": ["beautiful singing", "beautiful sustains", "beautiful high notes", "superb singing"],
+    "negatives": ["C1 kaneeril modulation not attempted", "C2 sustain could be longer", "check pronunciation (Unnale, munne, Oru)"],
+    "focus": ["Feel/Attitude", "Diction"]
+  },
+  {
+    "team": "MU6 BANG",
+    "round": 3,
+    "member": "ILAKKIYA",
+    "positives": ["awesome singing", "super pitch and feel", "excellent singing"],
+    "negatives": ["voice shaky in charanam", "sangathi placement off", "chorus needs double join", "voice strain", "check some sangathis", "singing slightly suppressed"],
+    "focus": ["Pitch", "Overall Perf."]
+  },
+  {
+    "team": "MU6 BANG",
+    "round": 3,
+    "member": "Srikaran",
+    "positives": ["lovely singing", "good diction improvement", "good feel", "superb singing"],
+    "negatives": ["landing flat (ungatha, paakayile, naan marandhen)", "small sangathis missing", "C1/C2 lines pitch flat", "voice off in places (Unmogatha, Enmogatha)", "sangathis need clarity", "some places plain, sing rounded", "add more feel"],
+    "focus": ["Pitch", "Overall Perf.", "Feel/Attitude"]
+  },
+  {
+    "team": "MU6 BANG",
+    "round": 3,
+    "member": "Janani",
+    "positives": ["lovely singing", "good diction improvement", "excellent singing", "beautiful emotions (Thavamirundeno, Nee nadanda, Thendara pola)", "clean singing"],
+    "negatives": ["landing flat (ungatha, paakayile, naan marandhen)", "small sangathis missing", "C1/C2 lines pitch flat", "some sangathis slip in clarity"],
+    "focus": ["Pitch", "Overall Perf."]
+  },
+  {
+    "team": "MU6 BANG",
+    "round": 3,
+    "member": "SSK",
+    "positives": ["great singing", "good feel", "super rendition", "excellent singing", "beautiful vibratos", "beautiful sangathi"],
+    "negatives": ["setting/headphone problem, voice sharp, lost softness", "song sounded raw", "some landings slight flat", "small landings need clarity", "2-3 places flat"],
+    "focus": ["Overall Perf.", "Pitch"]
+  },
+  {
+    "team": "MU6 BANG",
+    "round": 3,
+    "member": "ANANYA",
+    "positives": ["wonderful singing", "super pitch and feel", "excellent singing", "beautiful expressions", "beautiful Charanam1 start"],
+    "negatives": ["some pronunciation different (missing village slang/accent)", "setting issue (high music, low voice)", "pitch flat in places (Maarapula visiri, Neeye sonnaka, Inum venum, Nee Sonna varen)"],
+    "focus": ["Diction", "Overall Perf.", "Pitch"]
+  },
+  {
+    "team": "PHOENIX BIRDS",
+    "round": 3,
+    "member": "Rafik",
+    "positives": ["awesome singing", "excellent feel", "no major mistakes", "excellent singing", "superb sustains", "superb execution"],
+    "negatives": ["add more dynamics", "stress words a bit more"],
+    "focus": ["Feel/Attitude", "Diction"]
+  },
+  {
+    "team": "PHOENIX BIRDS",
+    "round": 3,
+    "member": "Aparana Harindran",
+    "positives": ["wonderful singing", "next-level pitch and feel", "excellent singing", "superb presentation", "beautiful Sakhi", "excellent dynamics and feel"],
+    "negatives": ["concentrate on diction (snehithane, athu meeral, Bakthan, karvam)", "C2 line sung wrong (indru viniilavi)", "male portion not sung", "male fillers not attempted", "chorus needs double join", "first Sakhi not attended", "2nd Chorus eera line different"],
+    "focus": ["Diction", "Pitch", "Overall Perf."]
+  },
+  {
+    "team": "PHOENIX BIRDS",
+    "round": 3,
+    "member": "Surya",
+    "positives": ["good singing", "excellent singing", "beautiful humming"],
+    "negatives": ["many pronunciation errors", "voice throw low/compressed", "charanam small sangathi missing", "add dynamics and sinungal", "small sangathis missing"],
+    "focus": ["Diction", "Overall Perf.", "Feel/Attitude"]
+  },
+  {
+    "team": "PHOENIX BIRDS",
+    "round": 3,
+    "member": "Good Mind",
+    "positives": ["excellent singing", "soothing feel", "ease of singing", "good 2nd join chorus", "superb execution"],
+    "negatives": ["throw could go higher", "try Shankar pitch level", "more energy in throw", "missed modulation in enna solla line", "last mounama could end high"],
+    "focus": ["Overall Perf.", "Pitch", "Feel/Attitude"]
+  },
+  {
+    "team": "PHOENIX BIRDS",
+    "round": 3,
+    "member": "IM SURYA",
+    "positives": ["super singing", "lovely to listen", "good BGM humming", "superb singing and efforts"],
+    "negatives": ["vocal strain, rest needed", "C2 lines slight pitch flat", "setting (low voice, high music)", "track beats dominate", "landings fade (Needhan Sonnathu, Sendradu)", "doubtful line (Thandhal vazhthuven)", "2nd humming slips", "add more feel"],
+    "focus": ["Overall Perf.", "Pitch", "Feel/Attitude"]
+  },
+  {
+    "team": "HUSTLERS",
+    "round": 3,
+    "member": "Anulekashri",
+    "positives": ["lovely singing", "wonderful performance", "tough song presented beautifully", "great sustains and aalap"],
+    "negatives": ["track/setting issue, music louder than voice", "C1 portion ending slightly flat", "Saakhi pitch flat (Ketadhu Idhayam, Iniya Valigale)", "last aalap ended abruptly"],
+    "focus": ["Overall Perf.", "Pitch"]
+  },
+  {
+    "team": "HUSTLERS",
+    "round": 3,
+    "member": "Pavadharni",
+    "positives": ["superb singing", "very good feel", "brilliant rendition"],
+    "negatives": ["counter portion slight pitch differ", "overlaps pitch differ (Azharadha llamai, Ahalada ninaivu)", "hummings sing softer", "slight pitch differ in places", "2nd Charanam landing flat (Uyire)"],
+    "focus": ["Pitch"]
+  },
+  {
+    "team": "HUSTLERS",
+    "round": 3,
+    "member": "Monika Kumar",
+    "positives": ["beautiful singing", "excellent rendition", "top class feel and dynamics", "beautiful emotions and expressions"],
+    "negatives": ["setting (low voice, high music)", "Pallavi high not reached (oodhum ragasiyam)", "one place light flat (Evano Anupum)"],
+    "focus": ["Overall Perf.", "Pitch"]
+  },
+  {
+    "team": "HUSTLERS",
+    "round": 3,
+    "member": "Kathir",
+    "positives": ["good singing", "no pitch/feel problem", "soothing rendition", "excellent singing", "beautiful feel and dynamics"],
+    "negatives": ["pronunciation problem (sellama/chellama)", "2nd BGM humming not covered", "one place sung attendance-style (Nee illai endral naanum)"],
+    "focus": ["Diction", "Overall Perf."]
+  },
+  {
+    "team": "HUSTLERS",
+    "round": 3,
+    "member": "Raja Puduvai",
+    "positives": ["nice singing", "beautiful feel", "wonderful rendition", "great vocals, feel, dynamics", "good song flow"],
+    "negatives": ["humming sung only half after 1st charanam", "headphone noise in BGM", "2nd BGM humming started but not completed"],
+    "focus": ["Overall Perf."]
+  },
+  {
+    "team": "VIP ROCKERZZZ",
+    "round": 3,
+    "member": "Praveen Spikez",
+    "positives": ["awesome singing", "beautiful modulation", "no major mistakes", "superb singing", "super whistle, fillers, female voice", "wonderful rendition"],
+    "negatives": ["careless word mistake (gnanam paraisudhu/vandu)", "C1 high raga unclear start (thaai paaalu bodhai)"],
+    "focus": ["Diction", "Pitch"]
+  },
+  {
+    "team": "VIP ROCKERZZZ",
+    "round": 3,
+    "member": "SM Dude",
+    "positives": ["super singing", "good chorus, all portions covered", "superb singing"],
+    "negatives": ["weak start (thogayara)", "lines flat (velu, iyyenaru, pullayer patti, paalayamkottai high)", "C1/C2 lines slightly flat (kooyilukku, aacham paathu)", "punch and energy missing", "Pallavi soft", "practice high notes", "2nd line pitch flat (Thirunelveli Halwada)", "add throw and attitude"],
+    "focus": ["Pitch", "Feel/Attitude", "Overall Perf."]
+  },
+  {
+    "team": "VIP ROCKERZZZ",
+    "round": 3,
+    "member": "Music Romeo",
+    "positives": ["lovely singing", "next-level feel", "no major pitch mistakes", "good singing"],
+    "negatives": ["landing and sangathi issues", "pronunciation, words sung with pauses (kanmaniye, ennuyire)", "sustain needed (punaai poogume)", "podi sangathi flat in C1/C2", "check diction (zz)", "add more feel"],
+    "focus": ["Pitch", "Diction", "Feel/Attitude"]
+  },
+  {
+    "team": "VIP ROCKERZZZ",
+    "round": 3,
+    "member": "Butterfly",
+    "positives": ["nice singing", "good lyrics allocation", "high range sung well", "superb singing", "easy beautiful high notes"],
+    "negatives": ["feel missing, add more feel", "C1 Mugamoodi slight flat", "expressions lacking", "landing slightly out", "C1 high join sounded harsh", "chorus needs double join", "add dynamics", "lines sharp (Mugamoodi, Thanohadhu, Vazhvathu)", "missed sangathi (Un madi meedhu)"],
+    "focus": ["Feel/Attitude", "Pitch", "Overall Perf."]
+  },
+  {
+    "team": "VIP ROCKERZZZ",
+    "round": 3,
+    "member": "Siri",
+    "positives": ["excellent singing", "good lyrics allocation", "beautiful maintenance", "beautiful singing", "beautiful chorus portions", "Thithikkude lines beautiful"],
+    "negatives": ["thithikudhe top note not reached", "feel could match Sujatha more", "line flat (Un aasam arayil undu)", "add more feel and dynamics"],
+    "focus": ["Pitch", "Feel/Attitude"]
+  }
+]

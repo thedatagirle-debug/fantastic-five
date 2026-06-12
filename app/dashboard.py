@@ -37,6 +37,7 @@ def gate():
 gate()
 
 members, teams = M.load()
+INSIGHTS = M.load_insights()        # LLM-decoded positives/negatives per singer-round
 standings = M.team_standings(teams)
 round_cols = [c for c in standings.columns if c.startswith("R") and c[1:].isdigit()]
 all_rounds = sorted(int(c[1:]) for c in round_cols)
@@ -152,11 +153,22 @@ with tabs[1]:
                           margin=dict(t=30, b=10))
         st.plotly_chart(fig, use_container_width=True)
     with cc[1]:
-        st.markdown("#### Judge feedback")
+        st.markdown("#### Judge feedback (decoded ✅ / ⚠️)")
         rsel = st.selectbox("Round", sorted(tm["round"].dropna().unique()), key="fb_round")
         for _, r in tm[tm["round"] == rsel].iterrows():
             with st.expander(f"{r['member']} — {r['grand_total']:.1f}"):
-                st.write(r["feedback"] or "_no feedback recorded_")
+                ins = INSIGHTS.get((team, int(rsel), r["member"]))
+                if ins:
+                    if ins.get("positives"):
+                        st.markdown("**✅ Positives:** " + " · ".join(ins["positives"]))
+                    if ins.get("negatives"):
+                        st.markdown("**⚠️ To improve:** " + " · ".join(ins["negatives"]))
+                    if ins.get("focus"):
+                        st.caption("Focus criteria: " + ", ".join(ins["focus"]))
+                    with st.popover("Raw Tanglish feedback"):
+                        st.write(r["feedback"] or "_none_")
+                else:
+                    st.write(r["feedback"] or "_no feedback recorded_")
 
 # ============================================================================= INDIVIDUALS
 with tabs[2]:
@@ -275,18 +287,18 @@ with tabs[3]:
                 col = f"avg_{wk}"
                 allm = mc.dropna(subset=[col])
                 field_rank = int((allm[col] > row[col]).sum() + 1)
-            last = gmem[gmem["member"] == row["member"]].sort_values("round").iloc[-1]
-            ins = M.feedback_insights(last["feedback"])
+            ins = M.member_insight(INSIGHTS, M.MY_TEAM, row["member"])
             rank_txt = f", ranks #{field_rank}/{len(mc)} among all singers on it" if field_rank else ""
             head = f"**{row['member']}** (avg {row['avg_grand']:.1f}) → improve **{wlabel}** ({wscore:.2f}{rank_txt})"
             with st.expander(head, expanded=False):
-                focus = ins["focus"]
-                if focus:
-                    st.markdown(f"Judges specifically mention: **{', '.join(focus)}**.")
-                if ins["suggestion"]:
-                    st.markdown(f"Judge suggestion: _{ins['suggestion']}_")
-                if not focus and not ins["suggestion"]:
-                    st.markdown("No explicit suggestion in the latest feedback — work the weakest criterion above.")
+                if ins["negatives"]:
+                    st.markdown(f"**⚠️ Judges want fixed:** {' · '.join(ins['negatives'])}")
+                if ins["focus"]:
+                    st.markdown(f"**Criteria to drill:** {', '.join(ins['focus'])}")
+                if ins["positives"]:
+                    st.markdown(f"**✅ Keep doing:** {' · '.join(ins['positives'])}")
+                if not ins["negatives"] and not ins["focus"]:
+                    st.markdown("No explicit improvement noted — work the weakest criterion above.")
 
         st.caption("💬 For full per-round judge feedback on each Golden RRR singer, see the "
                    "**🎤 Teams** tab → select Golden RRR → Judge feedback.")
@@ -374,21 +386,20 @@ with tabs[4]:
             if r0["best_grand"] > g_best:
                 st.markdown(f"🔥 **Top-potential threat:** their best ({r0['best_grand']:.1f}) is higher than "
                             f"Golden RRR's best ({g_best:.1f}). On their day they out-sing your strongest.")
-            # latest-round feedback, decoded
-            fbrows = rmem[rmem["member"] == r0["member"]].sort_values("round")
-            last = fbrows.iloc[-1]
-            ins = M.feedback_insights(last["feedback"])
-            if ins["praise"]:
-                st.markdown(f"**Judges praise:** {', '.join(ins['praise'])} → this is what makes them a threat.")
+            # decoded judge insights aggregated across their rounds
+            ins = M.member_insight(INSIGHTS, rival, r0["member"])
+            if ins["positives"]:
+                st.markdown(f"**✅ Their strengths (what makes them a threat):** {' · '.join(ins['positives'])}")
+            if ins["negatives"]:
+                st.markdown(f"**⚠️ Their weaknesses (out-sing them here):** {' · '.join(ins['negatives'])}")
             if ins["focus"]:
-                st.markdown(f"**Judges flag (their weak spots to exploit):** {', '.join(ins['focus'])}.")
-            if ins["suggestion"]:
-                st.markdown(f"**Judge suggestion to them:** _{ins['suggestion']}_")
+                st.markdown(f"**Exploit criteria:** {', '.join(ins['focus'])}.")
+            fbrows = rmem[rmem["member"] == r0["member"]].sort_values("round")
             with st.popover("Show raw judge feedback"):
                 for _, fr in fbrows.iterrows():
                     st.markdown(f"**R{int(fr['round'])} ({fr['grand_total']:.1f}):** {fr['feedback'] or '—'}")
-    st.caption("‘Threat singers’ = highest-scoring members of the rival team. Insights are auto-decoded from the "
-               "Tanglish judge feedback (praise = their strength; flags = where they can be out-sung).")
+    st.caption("‘Threat singers’ = highest-scoring members of the rival. ✅/⚠️ are LLM-decoded from the "
+               "Tanglish judge feedback across all their rounds — strengths to respect, weaknesses to attack.")
 
     # rival's weak links — singers Golden RRR can beat easily
     st.markdown(f"### 🟢 {rival} singers you can beat easily (weak links to target)")
@@ -404,15 +415,16 @@ with tabs[4]:
             sub_tag = "" if len(rp) >= len(all_rounds) else f" · plays R{rp} (sub/partial)"
             with st.expander(f"🎤 {w0['member']} — avg {w0['avg_grand']:.1f}, best {w0['best_grand']:.1f}, "
                              f"trend {w0['trend']:+.2f}{sub_tag}", expanded=False):
-                fbrows = rmem[rmem["member"] == w0["member"]].sort_values("round")
-                ins = M.feedback_insights(fbrows.iloc[-1]["feedback"])
+                ins = M.member_insight(INSIGHTS, rival, w0["member"])
+                if ins["negatives"]:
+                    st.markdown(f"**⚠️ Where they're vulnerable (press here):** {' · '.join(ins['negatives'])}")
                 if ins["focus"]:
-                    st.markdown(f"**Where they're vulnerable (judge flags):** {', '.join(ins['focus'])} "
-                                f"— press here.")
-                if ins["suggestion"]:
-                    st.markdown(f"**Judge told them:** _{ins['suggestion']}_")
-                if not ins["focus"] and not ins["suggestion"]:
+                    st.markdown(f"**Exploit criteria:** {', '.join(ins['focus'])}.")
+                if ins["positives"]:
+                    st.caption(f"(They're still decent at: {' · '.join(ins['positives'])} — don't underestimate.)")
+                if not ins["negatives"] and not ins["focus"]:
                     st.markdown("Lowest scorer on the team — your safest matchup to win.")
+                fbrows = rmem[rmem["member"] == w0["member"]].sort_values("round")
                 with st.popover("Show raw judge feedback"):
                     for _, fr in fbrows.iterrows():
                         st.markdown(f"**R{int(fr['round'])} ({fr['grand_total']:.1f}):** {fr['feedback'] or '—'}")
