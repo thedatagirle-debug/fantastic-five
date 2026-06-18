@@ -1,0 +1,484 @@
+{
+  "records": [
+    {
+      "image": "IMG_3682.png",
+      "team": "THE BEATLES",
+      "theme": "AAROHI",
+      "round": 5,
+      "year": "2013",
+      "team_total": 471.3,
+      "members": [
+        {
+          "name": "Nithi",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.3, "rhythm": 9.5, "diction": 9.1, "feel_attitude": 9.4, "o_performance": 9.5, "total": 46.8},
+            {"judge": "J2", "pitch": 9.2, "rhythm": 9.5, "diction": 9.3, "feel_attitude": 9.5, "o_performance": 9.5, "total": 47.0}
+          ],
+          "grand_total": 93.8,
+          "feedback": "Lovely singing, romba azaga paadi iurkeenga, sila place la matum lanibg la sruthi konjam slight out , First word Paakadhey cover pannale, and diction la konjam issue iruku  sila words drift agi iruku, last humming pitch serale otherwise good rendition ATB"
+        },
+        {
+          "name": "Ashibru",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.5, "o_performance": 9.5, "total": 47.5},
+            {"judge": "J2", "pitch": 9.5, "rhythm": 9.5, "diction": 9.4, "feel_attitude": 9.5, "o_performance": 9.5, "total": 47.4}
+          ],
+          "grand_total": 94.9,
+          "feedback": "Beautiful singing, Vibratos beautiful, Pallavi la word irupen matum diction pathukonga, good to listern keep it up ATB"
+        },
+        {
+          "name": "Samee",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.5, "o_performance": 9.5, "total": 47.5},
+            {"judge": "J2", "pitch": 9.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.5, "o_performance": 9.5, "total": 47.5}
+          ],
+          "grand_total": 95.0,
+          "feedback": "Excellent singing, Chorus portions beautiful aa iruku, good feel and soothing peformance ATB"
+        },
+        {
+          "name": "Jimcrow",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.3, "rhythm": 9.5, "diction": 9.3, "feel_attitude": 9.4, "o_performance": 9.0, "total": 46.5},
+            {"judge": "J2", "pitch": 9.4, "rhythm": 9.5, "diction": 9.3, "feel_attitude": 9.5, "o_performance": 9.1, "total": 46.8}
+          ],
+          "grand_total": 93.3,
+          "feedback": "Nice singing, such a wonderful peformance , sangathies ellam romba azaga vizundhu iruku great effort, Krrishna portions, Jathis ellam azhaga irku, sila place la matum landing and sruthi issue , and words ellam konjam pronoucation problem, main visyam naraya chorus part missing adu kooda try pani irunda innum semmaya irundu irukum, ATB"
+        },
+        {
+          "name": "Aarohi",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.4, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.5, "total": 47.1},
+            {"judge": "J2", "pitch": 9.4, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.3, "o_performance": 9.5, "total": 47.2}
+          ],
+          "grand_total": 94.3,
+          "feedback": "Good singing, konjam feel missing konjam shout pani paaduna madhree iruku, C1 thareyamale line la landing drift agi iruku, otherwise good rendition ATB"
+        }
+      ]
+    },
+    {
+      "image": "IMG_3683.png",
+      "team": "SILENT BEATS",
+      "theme": "BUTTERFLY",
+      "round": 5,
+      "year": "2005",
+      "team_total": 467.2,
+      "members": [
+        {
+          "name": "Kamesh",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.4, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.4, "o_performance": 9.0, "total": 46.8},
+            {"judge": "J2", "pitch": 9.4, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.3, "o_performance": 9.1, "total": 46.8}
+          ],
+          "grand_total": 93.6,
+          "feedback": "Beautiful singing, fabulous peformance good range and gender differentiation were too good,sila place la landing matum thaan lita drift achi otherwise good, chorus part naraya miss paniteenga 2nd join join pana chorus paadi irukalam, next time edum miss panama paada try panunga ATB"
+        },
+        {
+          "name": "Butterfly",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.4, "rhythm": 9.3, "diction": 9.5, "feel_attitude": 8.7, "o_performance": 9.4, "total": 45.3},
+            {"judge": "J2", "pitch": 8.6, "rhythm": 9.3, "diction": 9.5, "feel_attitude": 8.7, "o_performance": 9.4, "total": 45.5}
+          ],
+          "grand_total": 90.8,
+          "feedback": "Good singing, nice effort, inda song la naraya gamakas varum adu sila place la missing, sruthi naraya place la flat ah paadi irukeenga like azhagaga, avan vaai , isaiyaai, malarndhal,C1 arundagum, isayin oayanil, C2 thandhai enben, idhuvai inda madhree naraya place la flat ah irunduchi, C1 la varndhum uyirukku line la vara aalapu flat , unga swaram were good but swarasthanam sariya place ahala and timing slight ah lag achi anga, last la kaatril varum line single join la varum but neenga adu double join pa paadi irukeenga adu avoid pani irukalam, GUD LUCK"
+        },
+        {
+          "name": "SPB Rasigan",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.3, "o_performance": 9.5, "total": 47.3},
+            {"judge": "J2", "pitch": 9.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.3, "o_performance": 9.5, "total": 47.3}
+          ],
+          "grand_total": 94.6,
+          "feedback": "Excellent singing, overall superb peformance sila dynamics matum miss achi otherwise brillant rendition ATB"
+        },
+        {
+          "name": "Kalaivani",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.4, "o_performance": 9.5, "total": 47.4},
+            {"judge": "J2", "pitch": 9.4, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.5, "o_performance": 9.5, "total": 47.4}
+          ],
+          "grand_total": 94.8,
+          "feedback": "Super singing , romba azaga paadi irukeenga, one thing  anda last oru aalapu vara place la matum landing vitutu anda aalapu eduthhu irukeenga 2nd join pani irunda anda place la casual ah paadi irupeenga , small mistake thaan but careless mistake so next time adlam note panukonga ATB"
+        },
+        {
+          "name": "Vasan",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.5, "rhythm": 9.5, "diction": 9.2, "feel_attitude": 9.5, "o_performance": 9.0, "total": 46.7},
+            {"judge": "J2", "pitch": 9.3, "rhythm": 9.5, "diction": 9.4, "feel_attitude": 9.5, "o_performance": 9.2, "total": 46.7}
+          ],
+          "grand_total": 93.4,
+          "feedback": "Lovely singing, clear rendition ellam super , za letter word matum konjam paakanum and back vocals and chorus naraya miss 2nd join la adalaam pani irunda semmaya irundu irukum ATB"
+        }
+      ]
+    },
+    {
+      "image": "IMG_3684.png",
+      "team": "ISAI SARAL",
+      "theme": "TAMILVENDHAN",
+      "round": 5,
+      "year": "2000",
+      "team_total": 456.6,
+      "members": [
+        {
+          "name": "Thamizhventhan",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.4, "o_performance": 9.5, "total": 45.4},
+            {"judge": "J2", "pitch": 8.7, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.6, "o_performance": 9.5, "total": 45.8}
+          ],
+          "grand_total": 91.2,
+          "feedback": "Super singing, very good improvement inda competion unga best peformance bro , sruthi issue iruku but not like previous rounds, innum konjam practice pani nalla improve agalam, practice well bro ATB"
+        },
+        {
+          "name": "Archanaa",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.4, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.5, "o_performance": 9.3, "total": 47.2},
+            {"judge": "J2", "pitch": 9.3, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.5, "o_performance": 9.3, "total": 47.1}
+          ],
+          "grand_total": 94.3,
+          "feedback": "Excellent singing, romba azaga paadi irukeenga beautiful feel , Sangathis konjam clarity varalam, C1 n C2 la 1st line appuram BGM la oru female humming varum adu missing, mathapadi romba azagana rendition ATB"
+        },
+        {
+          "name": "Luna",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.5, "o_performance": 9.4, "total": 45.4},
+            {"judge": "J2", "pitch": 8.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.7, "o_performance": 9.1, "total": 45.3}
+          ],
+          "grand_total": 90.7,
+          "feedback": "Lovely humming, chorus edum cover pannale, please unga sruthi la naraya concentrate pananum, sila place la romba flat ah iruku pitch, song naraya time ketutu practice pana nalla paadalam ATB"
+        },
+        {
+          "name": "Christy",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.6, "rhythm": 9.2, "diction": 9.5, "feel_attitude": 9.7, "o_performance": 9.0, "total": 45.0},
+            {"judge": "J2", "pitch": 8.8, "rhythm": 9.2, "diction": 9.5, "feel_attitude": 8.8, "o_performance": 9.2, "total": 45.2}
+          ],
+          "grand_total": 90.2,
+          "feedback": "Nice singing, ungalukum same track la noise vandu iruku, sruthi naraya place la konjam flat ah paadi irukeenga, landing kooda drift agi iruku, back ground vocals and chorus edum paadala, oru song la ellam portion cover pana soli irukom la, track issue and echo nala unga song half quality spoil aagudu. please practice well ATB"
+        },
+        {
+          "name": "Asik",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.4, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.4, "o_performance": 9.1, "total": 44.9},
+            {"judge": "J2", "pitch": 8.6, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.6, "o_performance": 9.1, "total": 45.3}
+          ],
+          "grand_total": 90.2,
+          "feedback": "Good singing, first issue unga setting track la neenga paaduna place la ellam echo vandu iruku, then sruthi naraya place la half note la thaan paadi irukeenga, dynamics and landing issue, back vocals edum paadala, kindly practice well GUD LUCK"
+        }
+      ]
+    },
+    {
+      "image": "IMG_3685.png",
+      "team": "SM RAAGA REBELS",
+      "theme": "NETHAJI J2C",
+      "round": 5,
+      "year": "2012",
+      "team_total": 465.5,
+      "members": [
+        {
+          "name": "Nethaji",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.0, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.5, "o_performance": 9.3, "total": 46.3},
+            {"judge": "J2", "pitch": 9.1, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.1, "o_performance": 9.5, "total": 46.7}
+          ],
+          "grand_total": 93.0,
+          "feedback": "Beautiful singing, sruthi la romba problem illa sila sila lines matum slight flat but naraya landing issue iruku words ellam short ah complete pani irukeenga susutain missing espically C1 n C2 la after 1st line la sustain varum adu neenga pana short ah mudichi irukeenga, chorus ellam paadi irukeenga fine but overlap missing, feel konjam kooda add pani irukalam, next time idalaam paathukonga ATB"
+        },
+        {
+          "name": "Kodeeswaran",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.8, "o_performance": 9.5, "total": 45.8},
+            {"judge": "J2", "pitch": 8.9, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.7, "o_performance": 9.5, "total": 46.1}
+          ],
+          "grand_total": 91.9,
+          "feedback": "Nice singing, sruthi la naraya concentrate pananum bro naraya lines flat ah paadi irukeenga, landing and dynamics kooda paakanum ,next time nalla practice panitu super ah paadunga ATB"
+        },
+        {
+          "name": "Indrani",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.0, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.0, "o_performance": 9.4, "total": 46.4},
+            {"judge": "J2", "pitch": 9.2, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.1, "o_performance": 9.3, "total": 46.6}
+          ],
+          "grand_total": 93.0,
+          "feedback": "Good singing, sruthi matum konjam half note iruku sila place and dynamics missing , other creteria la manage paniteenga ATB"
+        },
+        {
+          "name": "Riyana",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.2, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.3, "total": 46.7},
+            {"judge": "J2", "pitch": 9.3, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.3, "o_performance": 9.5, "total": 46.9}
+          ],
+          "grand_total": 93.6,
+          "feedback": "Super singing, overall nalla paadi irukeenga that yeadhum yeadhum line vara ella place la landing konjam flat ah paadi irukeenga otherwise good rendition ATB"
+        },
+        {
+          "name": "Dev Era",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.3, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.5, "o_performance": 9.3, "total": 47.1},
+            {"judge": "J2", "pitch": 9.3, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.3, "o_performance": 9.3, "total": 46.9}
+          ],
+          "grand_total": 94.0,
+          "feedback": "Excellent singing , good start and lovely managed overall, attitude konjam missing adu paakanum and chorus part overlapp panala, chinna mistakes thaan next time paathukonga ATB"
+        }
+      ]
+    },
+    {
+      "image": "IMG_3686.png",
+      "team": "MYSTIC VOICES",
+      "theme": "JHON MARVEL",
+      "round": 5,
+      "year": "2016",
+      "team_total": 466.3,
+      "members": [
+        {
+          "name": "Archu",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.9, "rhythm": 9.4, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.5, "total": 46.4},
+            {"judge": "J2", "pitch": 9.1, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.9, "o_performance": 9.5, "total": 46.5}
+          ],
+          "grand_total": 92.9,
+          "feedback": "Super singing, romba azaga maintain paneenga song ah sila place la matum sruthi konjam flat ah irunduchi like C1 rekkayum and C2 unna en usrukulla inda 2 place la romba flat ah poche and pallavi la 2nd time kanna kaatu early ah eduthu irukeenga otherwise fine ATB"
+        },
+        {
+          "name": "JHON MARVEL",
+          "compliance": {"year": "yes", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.2, "rhythm": 9.3, "diction": 9.5, "feel_attitude": 9.3, "o_performance": 9.5, "total": 46.8},
+            {"judge": "J2", "pitch": 9.2, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.3, "o_performance": 9.5, "total": 47.0}
+          ],
+          "grand_total": 93.8,
+          "feedback": "Excellent singing, small mistakes starting la timing konjam lag achi aduku appurammanaged well and feel konjam missing , sila place la sruthi konjm drift achi otherwise nice rendition ATB"
+        },
+        {
+          "name": "Soundariya",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.1, "rhythm": 9.5, "diction": 9.3, "feel_attitude": 9.2, "o_performance": 9.5, "total": 46.6},
+            {"judge": "J2", "pitch": 9.2, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.3, "o_performance": 9.1, "total": 46.6}
+          ],
+          "grand_total": 93.2,
+          "feedback": "Lovely singing, feel konjam kuduthu irukalam, pallavi la unai thedi line konjam flat ah paadi irukeenga, C2 munai vara swaram slight flat and za letter word konjam paakanum, ATB"
+        },
+        {
+          "name": "Sam",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.2, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.3, "total": 46.7},
+            {"judge": "J2", "pitch": 9.1, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.1, "o_performance": 9.4, "total": 46.4}
+          ],
+          "grand_total": 93.1,
+          "feedback": "Good singing, setting konjam check pananum voice low and muisc high an irunduchi, sruthi ellam nalla manage pani irukeenga sila place matum sligh ah drag ah achi and landing kooda sila place sariya vizala, backvocals missing  adalam miss panama next time paadunga ATB"
+        },
+        {
+          "name": "Ramking",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.1, "rhythm": 9.3, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.5, "total": 46.7},
+            {"judge": "J2", "pitch": 9.3, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.3, "total": 46.6}
+          ],
+          "grand_total": 93.3,
+          "feedback": "Super singing, setting check pananum voice low ah iruku , sila gamakas sariya kekala, timing konjam lag ah irunduchi inda song la timing maintain pana romba kastam neenga nalla pani irundeenga sila place matum thaan slight lag, next time paathukonga ATB"
+        }
+      ]
+    },
+    {
+      "image": "IMG_3687.png",
+      "team": "TUNEXA",
+      "theme": "AVANTHIKA EMPIRE",
+      "round": 5,
+      "year": "2013",
+      "team_total": 467.9,
+      "members": [
+        {
+          "name": "Avanthika",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.7, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.5, "total": 46.4},
+            {"judge": "J2", "pitch": 8.9, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.3, "o_performance": 9.5, "total": 46.7}
+          ],
+          "grand_total": 93.1,
+          "feedback": "Lovely singing, Great improvement, very good song selection and have peformed very well, slight pitch issues in some places like C1 touch touch and pacha pachayaga C2 thikku thikku and nellu pattu in these lines there was a problem otherwise brilliant rendition ATB"
+        },
+        {
+          "name": "Hariharan",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.0, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.5, "total": 46.7},
+            {"judge": "J2", "pitch": 9.2, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.5, "total": 46.9}
+          ],
+          "grand_total": 93.6,
+          "feedback": "Beautiful singing, azaga paadi irukeenga, konjam landing and sustain missing, feel la konjam concentrate pani irukanum inda song love feel thaana, dynamics naraya varum inda song la adum konjam missing, C2 la pacha neruppa nenga vera pronounce pani irukeenga, last pallavi la oh oh ennada la anda oh oh konjam flat ah iruku , next time innum nalla practice panitu super ah paadunga ATB"
+        },
+        {
+          "name": "Tamil Ilakkiya",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.0, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.1, "o_performance": 9.5, "total": 46.6},
+            {"judge": "J2", "pitch": 9.2, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.5, "total": 46.9}
+          ],
+          "grand_total": 93.5,
+          "feedback": "Nice singing, nalla paadi irukeenga but anda clear notes reach agala sila lines ellam konjam flat ah iruku  C1 paasa yeadhum vaarthaigal anda C2 kaadhal poola inia high range reach aga mudeyama konjam flat achi and sila landing kooda sariya place agala ,feel missing ,next time idalaam paathukonga ATB"
+        },
+        {
+          "name": "SaravanaKarpagam",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.1, "rhythm": 9.5, "diction": 9.4, "feel_attitude": 9.2, "o_performance": 9.5, "total": 46.7},
+            {"judge": "J2", "pitch": 9.3, "rhythm": 9.5, "diction": 9.4, "feel_attitude": 9.3, "o_performance": 9.5, "total": 47.0}
+          ],
+          "grand_total": 93.7,
+          "feedback": "Beautiful singing, azaga paadi irukeenga, konjam landing and sustain missing, C2 la pacha neruppa nenga vera pronounce pani irukeenga, last pallavi la oh oh ennada la anda oh oh konjam flat ah iruku , next time innum nalla practice panitu super ah paadunga ATB"
+        },
+        {
+          "name": "Vishwa",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.2, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.3, "o_performance": 9.5, "total": 47.0},
+            {"judge": "J2", "pitch": 9.3, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.5, "total": 47.0}
+          ],
+          "grand_total": 94.0,
+          "feedback": "Super singing, start la konjam sruthi drift achi then u pickuped well and nicely managed, chorus ellam romba azaga paadi irukeenga, high pitch la konjam range pora appo throw innum konjam try pani irukalam otherwise good rendition ATB"
+        }
+      ]
+    },
+    {
+      "image": "IMG_3688.png",
+      "team": "PHOENIX BIRDS",
+      "theme": "IM SURYA",
+      "round": 5,
+      "year": "2007",
+      "team_total": 469.8,
+      "members": [
+        {
+          "name": "Rafik",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.2, "rhythm": 9.4, "diction": 9.4, "feel_attitude": 9.1, "o_performance": 9.5, "total": 46.6},
+            {"judge": "J2", "pitch": 9.2, "rhythm": 9.4, "diction": 9.5, "feel_attitude": 9.1, "o_performance": 9.5, "total": 46.7}
+          ],
+          "grand_total": 93.3,
+          "feedback": "Good singing, song overall nalla paadi irukeenga but sila visayam mention pandra adu paathu check panikonga and next time anda visayathula concentrate panikonga, Start la konjam husky voice la paadi irupaanga adu missing, next lead start pandra appo oru energy and punch adu missing, inda song la attitude romba important adum missing,za letter word la issue ,same start la the slight ah timing lag agi iruku words sariya place agadha madhree iruku, gavanicha varaikum solitan paathukonga ATB"
+        },
+        {
+          "name": "Aparana Harindran",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.5, "o_performance": 9.0, "total": 47.0},
+            {"judge": "J2", "pitch": 9.5, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.5, "o_performance": 9.2, "total": 47.2}
+          ],
+          "grand_total": 94.2,
+          "feedback": "Excellent singing, super singing la there is no problem , back vocals and chorus overlapping missing that's it, small tips unga singing la problem illa but inda song start la edo track la issue unga voice struck agi iruku neenga notice panieengala thareyala next level pora appo mistake enga iruku nu naraya kandu pudipom appo inda madhree silly mistakes ellam note pani marks reduce aga chance iruku but ippo reduce panala so posting song thana appde iruku appo nalla song ketutu post pana better, Gud Luck"
+        },
+        {
+          "name": "Im Surya",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.3, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.3, "o_performance": 9.5, "total": 47.1},
+            {"judge": "J2", "pitch": 9.4, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.5, "total": 47.1}
+          ],
+          "grand_total": 94.2,
+          "feedback": "Beautiful singing, romba nalla paadi irukeenga start to end peformance were good, song la attitude konjam missing anda soft and lazy feel la paadi irupaanga neenga konjam Raw ah paadi irukeenga , then C2 munadi vara humming could be more better, otherwise good rendition GUD LUCK"
+        },
+        {
+          "name": "Good Mind",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.4, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.5, "total": 47.1},
+            {"judge": "J2", "pitch": 9.3, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.5, "total": 47.0}
+          ],
+          "grand_total": 94.1,
+          "feedback": "Lovely singing, romba azaga paadi irukeenga , konjam feel kooda add pani Irukalam inda song la yuvan sir anda nasal touch la paadi irupaanga anda varation la concentaate pani iruakalam ,otherwise best rendtionGUD LUCK"
+        },
+        {
+          "name": "SaiSaranya",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.3, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.3, "o_performance": 9.5, "total": 47.1},
+            {"judge": "J2", "pitch": 9.2, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.5, "total": 46.9}
+          ],
+          "grand_total": 94.0,
+          "feedback": "Superb singing, overall semmaya paadi irukeenga charanam la high note ellam clear reach , pallavi la sila landing konjam sariya vizala azaga irupaai, siripai, thamizai inda words ellam different ah iruku keka kindly check original, otherwise brilliant rendition ATB"
+        }
+      ]
+    },
+    {
+      "image": "IMG_3689.png",
+      "team": "VIP ROCKERZZZ",
+      "theme": "PRAVEEN SPIKES",
+      "round": 5,
+      "year": "2012",
+      "team_total": 467.8,
+      "members": [
+        {
+          "name": "Praveen Spikez",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.3, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.5, "o_performance": 9.5, "total": 47.3},
+            {"judge": "J2", "pitch": 9.3, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.5, "o_performance": 9.5, "total": 47.3}
+          ],
+          "grand_total": 94.6,
+          "feedback": "Excellent singing , lovely harms brilliant rendition, small sruthi issue in some place otherwise great ATB"
+        },
+        {
+          "name": "MissMiracle",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.9, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 8.9, "o_performance": 9.5, "total": 46.3},
+            {"judge": "J2", "pitch": 8.8, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.1, "o_performance": 9.5, "total": 46.4}
+          ],
+          "grand_total": 92.7,
+          "feedback": "Good singing, feel missing high range pora place ellam romba shout pani paadi irukeenga anda voice control illa, sila place la sruthi kooda drift agi iruku , C1 unadhu velai C2 ennai meendum inga check panunga, ATB"
+        },
+        {
+          "name": "Music Romeo",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 8.9, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.0, "o_performance": 9.5, "total": 46.4},
+            {"judge": "J2", "pitch": 8.9, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.1, "o_performance": 9.5, "total": 46.5}
+          ],
+          "grand_total": 92.9,
+          "feedback": "Lovely singing,voice modulation were too good, please concentrate on your sruthi  sila place la half note paadi irukeenga ,feel were good overlapping part ellam good, feel good but dynamics paakanum, ATB"
+        },
+        {
+          "name": "Butterfly",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.4, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.5, "total": 47.1},
+            {"judge": "J2", "pitch": 9.4, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.5, "total": 47.1}
+          ],
+          "grand_total": 94.2,
+          "feedback": "Super singing, overall nalla paadiirukeenga attitude konjam missing otherwise brilliant renditioin ATB"
+        },
+        {
+          "name": "Siri",
+          "compliance": {"year": "YES", "slogan": "YES", "dp_check": "YES", "tag_check": "YES"},
+          "judges": [
+            {"judge": "J1", "pitch": 9.0, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.1, "o_performance": 9.5, "total": 46.6},
+            {"judge": "J2", "pitch": 9.1, "rhythm": 9.5, "diction": 9.5, "feel_attitude": 9.2, "o_performance": 9.5, "total": 46.8}
+          ],
+          "grand_total": 93.4,
+          "feedback": "Nice singing, feel konjam add pani irukalam high note pora place la shout pana madhree paadi irukeenga , anda landing ellam konjam sariya vizala, sruthi slight flat in some place otherwise good rendition ATB"
+        }
+      ]
+    }
+  ]
+}

@@ -28,9 +28,16 @@ def _norm_name(s):
 
 
 def content_sig(r):
-    """Signature of a card's scores; identical sig => duplicate screenshot."""
-    gts = tuple(sorted(str(m.get("grand_total")) for m in r.get("members", [])))
-    return (norm_team(r.get("team")), r.get("team_total"), gts)
+    """Signature of a card by team + its members' grand totals (normalized to 1 decimal).
+    Excludes team_total (varies pre/post penalty) and ignores 95 vs 95.0 formatting, so
+    the same physical card photographed twice / read by two agents dedupes reliably."""
+    def g(m):
+        try:
+            return round(float(m.get("grand_total")), 1)
+        except (TypeError, ValueError):
+            return None
+    gts = tuple(sorted((x for x in (g(m) for m in r.get("members", [])) if x is not None)))
+    return (norm_team(r.get("team")), gts)
 
 
 def load_records():
