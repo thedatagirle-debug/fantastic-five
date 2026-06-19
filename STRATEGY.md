@@ -1,44 +1,55 @@
 # Golden RRR — Path to the Top 🎯
 
-*Captain: Priya Empire. Based on Rounds 1–3 (62 cards, 21 teams). Ranked by average score/round.*
+*Captain: PRIYA EMPIRE. Based on Rounds 1–5 (102 cards, 21 teams). Ranked by average score/round. Auto-generated — re-run `generate_strategy.py` after each update.*
 
 ## Where you stand
-- **Rank #8 of 21**, average **460.0**/round.
-- The top is **a dogfight**: only **6.5 points** separate you from #1 RCB (466.5), and just **2.5 points** covers ranks #5–#8. One strong round vaults you into the top 5; one flat round drops you out.
-- Your momentum is healthy (**+12.4** R1→R3, trend **+6.2/round**) — but **every team is improving**. Standing still means sliding back.
+- **Rank #7 of 21**, average **462.9**/round.
+- Leader: **RCB** (467.6). Gap to #1: **4.7**. The team one place above you (**THE BEATLES**) is only **1.5** ahead.
+- Momentum R1→R5: **+12.1** (trend +3.19/round).
 
-## The two levers that matter most (per-criterion gap vs the 7 teams above you)
+## The levers that matter most (per-criterion gap vs the teams above you)
 | Criterion | Golden RRR | Teams above | Gap |
 |---|---|---|---|
-| **Pitch** | 8.81 | 9.11 | **−0.30** ← biggest weakness |
-| **Feel/Attitude** | 8.88 | 9.12 | **−0.24** ← second weakness |
-| Rhythm | 9.47 | 9.47 | 0.00 |
-| Diction | 9.41 | 9.36 | +0.05 (strength) |
-| Overall Perf. | 9.38 | 9.30 | +0.08 (strength) |
+| Pitch | 8.93 | 9.22 | -0.29 ← biggest gap |
+| Feel/Attitude | 9.04 | 9.21 | -0.16 |
+| Diction | 9.38 | 9.40 | -0.02 |
+| Rhythm | 9.48 | 9.48 | +0.00 |
+| Overall Perf. | 9.41 | 9.35 | +0.06 |
 
-**Pitch and Feel/Attitude are where you lose the race.** Closing the pitch gap alone (≈0.30 × 2 judges × 5 singers) is worth **~3 team points** — enough to jump from #8 to top-3. Your diction and stage performance already beat the leaders; protect those, attack pitch.
+**Pitch is where you lose the race (-0.29).** Closing it is the cheapest points on the board.
 
-## Your roster — who to lift
-| Member | Avg | Best | Trend | Read |
+## Your roster — recurring issues (the patterns judges keep flagging)
+| Singer | Avg | Best | Trend | Recurring issues (rounds flagged) |
 |---|---|---|---|---|
-| **Shanthi** | 90.5 | 90.9 | +0.10 | **Weakest link & flat** — biggest single upside. Pitch/feel coaching here moves the team most. |
-| Krish Empire | 91.0 | 93.7 | **+3.15** | Rising fast — keep feeding momentum. |
-| Priya Empire | 92.2 | 94.3 | +2.25 | Solid & climbing (you). |
-| U.Ishu Empire | 92.8 | 94.0 | +1.20 | Reliable top-half. |
-| Kotti Star | 93.5 | 94.7 | **−0.50** | Your strongest, but **declining** — arrest the slide. |
+| Shanthi | 91.2 | 93.1 | +0.82 | pitch goes flat / off sruthi (4×); should use the 2nd join (duet) option (3×); landings cut short / not sustained (3×) |
+| Captainrose | 91.3 | 91.3 | +0.00 | — |
+| Krish Empire | 92.2 | 94.1 | +1.53 | feel / attitude / dynamics lacking (4×); pitch goes flat / off sruthi (3×); diction / pronunciation / word clarity (3×) |
+| Priya Empire | 92.5 | 94.3 | +0.69 | pitch goes flat / off sruthi (5×); landings cut short / not sustained (3×); feel / attitude / dynamics lacking (2×) |
+| U.Ishu Empire | 93.3 | 94.5 | +0.59 | landings cut short / not sustained (4×); should use the 2nd join (duet) option (3×); pitch goes flat / off sruthi (2×) |
+| Kotti Star | 93.6 | 94.7 | -0.06 | pitch goes flat / off sruthi (2×); feel / attitude / dynamics lacking (2×); landings cut short / not sustained (2×) |
 
-Lift **Shanthi** ~2 points and stop **Kotti Star**'s slide and you've found another ~3 team points without touching anyone else.
+## What the whole field struggles with (121 multi-round singers)
+- **pitch goes flat / off sruthi** — 70 singers (58%)
+- **feel / attitude / dynamics lacking** — 69 singers (57%)
+- **landings cut short / not sustained** — 60 singers (50%)
+- **missing / uncovered portions of the song** — 51 singers (42%)
+- **weak in a specific section (pallavi/charanam)** — 35 singers (29%)
+- **should use the 2nd join (duet) option** — 29 singers (24%)
 
-## Rival intel — who to fear, who is catchable
-- **RCB (#1, 466.5)** — highest level *but lowest trend among the leaders (+3.5)*. **Plateauing → catchable.**
-- **Blasting Buddies (#2)**, **Innisai Mazhai (#3)**, **Hustlers (#4)** — strong *and* rising (+6 to +7.5/round). These are the **real long-term threats** (they also top the "potential" ranking). Watch them.
-- **Surging from below:** MU6 BANG (trend **+10.6**) and VIP Rockerzzz (**+10.0**) are climbing fastest — they can leapfrog the mid-pack (including you) if you flatten.
+*Fixing an issue most rivals also have = where Golden RRR separates from the pack.*
 
-## Game plan for Round 4/5
-1. **Drill pitch first** — it's your #1 gap and the cheapest points on the board.
-2. **Coach Shanthi** on pitch + feel/attitude; she's the highest-leverage individual.
-3. **Re-energise Kotti Star** — reverse the −0.5 trend before it costs a place.
-4. **Lean into your edges** (diction, overall performance) in song selection — pick numbers that show them off.
-5. **Target RCB** as the beatable #1; **defend against** Blasting Buddies / Innisai Mazhai / Hustlers and the fast risers below.
+## Rival intel
+- **RCB** (avg 467.6, trend +1.72) — strongest at **Rhythm** (9.50).
+- **BLASTING BUDDIES** (avg 466.1, trend +1.96) — strongest at **Diction** (9.46).
+- **HUSTLERS** (avg 466.0, trend +4.05) — strongest at **Rhythm** (9.47).
+- **PHOENIX BIRDS** (avg 465.6, trend +3.52) — strongest at **Rhythm** (9.48).
+- **INNISAI MAZHAI** (avg 464.9, trend +2.75) — strongest at **Rhythm** (9.47).
 
-*Open the **🎯 Golden RRR War Room** tab in the dashboard for the live version of this analysis — it updates automatically when Round 4/5 cards are added.*
+## Game plan
+1. **Drill Pitch** — your #1 gap vs the teams above.
+2. **Coach the weakest links:** Shanthi (91.2) and Captainrose (91.3).
+3. **Fix the recurring techniques** judges keep repeating (see roster table) — esp. landings and using the 2nd-join / duet option.
+4. **Lean into your edges** (Diction, Overall Performance) in song selection.
+5. **Target the beatable top team** and defend against the fast risers below you.
+
+*Live, interactive version: the 🎯 Golden RRR War Room and 🥊 Beat a Team tabs in the dashboard.*
